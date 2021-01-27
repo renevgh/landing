@@ -1,0 +1,20 @@
+/********************
+* Imagenes
+********************/
+
+@mixin imagen{
+	max-width: 100%;
+	height: auto;
+}
+
+.imagen{
+	@include imagen;
+}
+.imagen-circular{
+	border-radius: $atomo-borderRadius-circular;
+	display: block;
+}
+.imagen-centrada{
+	display: block;
+	margin: auto;
+}

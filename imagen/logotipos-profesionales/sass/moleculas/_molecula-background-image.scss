@@ -1,0 +1,15 @@
+/********************
+* Background image
+********************/
+@mixin imagen-fondo{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.background-image{
+	@include imagen-fondo;
+}
+.background-image-parallax{
+	@include imagen-fondo;
+	background-attachment: fixed;
+}

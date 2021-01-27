@@ -1,0 +1,539 @@
+/********************
+* Columnas
+********************/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+[class*=column-] {
+  float: left;
+  padding: 0.8em;
+  width: 100%;
+  min-height: 1px;
+}
+
+@media only screen and (min-width: 576px) {
+  .column-1 {
+    width: 8.3333333333%;
+  }
+
+  .column-2 {
+    width: 16.6666666667%;
+  }
+
+  .column-3 {
+    width: 25%;
+  }
+
+  .column-4 {
+    width: 33.3333333333%;
+  }
+
+  .column-5 {
+    width: 41.6666666667%;
+  }
+
+  .column-6 {
+    width: 50%;
+  }
+
+  .column-7 {
+    width: 58.3333333333%;
+  }
+
+  .column-8 {
+    width: 66.6666666667%;
+  }
+
+  .column-9 {
+    width: 75%;
+  }
+
+  .column-10 {
+    width: 83.3333333333%;
+  }
+
+  .column-11 {
+    width: 91.6666666667%;
+  }
+
+  .column-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .column-m-1 {
+    width: 8.3333333333%;
+  }
+
+  .column-m-2 {
+    width: 16.6666666667%;
+  }
+
+  .column-m-3 {
+    width: 25%;
+  }
+
+  .column-m-4 {
+    width: 33.3333333333%;
+  }
+
+  .column-m-5 {
+    width: 41.6666666667%;
+  }
+
+  .column-m-6 {
+    width: 50%;
+  }
+
+  .column-m-7 {
+    width: 58.3333333333%;
+  }
+
+  .column-m-8 {
+    width: 66.6666666667%;
+  }
+
+  .column-m-9 {
+    width: 75%;
+  }
+
+  .column-m-10 {
+    width: 83.3333333333%;
+  }
+
+  .column-m-11 {
+    width: 91.6666666667%;
+  }
+
+  .column-m-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .column-l-1 {
+    width: 8.3333333333%;
+  }
+
+  .column-l-2 {
+    width: 16.6666666667%;
+  }
+
+  .column-l-3 {
+    width: 25%;
+  }
+
+  .column-l-4 {
+    width: 33.3333333333%;
+  }
+
+  .column-l-5 {
+    width: 41.6666666667%;
+  }
+
+  .column-l-6 {
+    width: 50%;
+  }
+
+  .column-l-7 {
+    width: 58.3333333333%;
+  }
+
+  .column-l-8 {
+    width: 66.6666666667%;
+  }
+
+  .column-l-9 {
+    width: 75%;
+  }
+
+  .column-l-10 {
+    width: 83.3333333333%;
+  }
+
+  .column-l-11 {
+    width: 91.6666666667%;
+  }
+
+  .column-l-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .column-xl-1 {
+    width: 8.3333333333%;
+  }
+
+  .column-xl-2 {
+    width: 16.6666666667%;
+  }
+
+  .column-xl-3 {
+    width: 25%;
+  }
+
+  .column-xl-4 {
+    width: 33.3333333333%;
+  }
+
+  .column-xl-5 {
+    width: 41.6666666667%;
+  }
+
+  .column-xl-6 {
+    width: 50%;
+  }
+
+  .column-xl-7 {
+    width: 58.3333333333%;
+  }
+
+  .column-xl-8 {
+    width: 66.6666666667%;
+  }
+
+  .column-xl-9 {
+    width: 75%;
+  }
+
+  .column-xl-10 {
+    width: 83.3333333333%;
+  }
+
+  .column-xl-11 {
+    width: 91.6666666667%;
+  }
+
+  .column-xl-12 {
+    width: 100%;
+  }
+}
+/********************
+* Fila
+********************/
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/********************
+* Contenido
+********************/
+.contenido {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+@media (min-width: 576px) {
+  .contenido {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .contenido {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .contenido {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .contenido {
+    max-width: 1140px;
+  }
+}
+
+.contenido-amplio {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/********************
+* Colores
+********************/
+.color-primario {
+  color: #ee3344;
+}
+
+.color-primarioA {
+  color: #cc3344;
+}
+
+.color-secundario {
+  color: #555555;
+}
+
+.color-secundarioA {
+  color: #222222;
+}
+
+.color-negro {
+  color: #000000;
+}
+
+.color-blanco {
+  color: #ffffff;
+}
+
+/********************
+* Backgrounds
+********************/
+.background-primario {
+  background-color: #ee3344;
+}
+
+.background-secundario {
+  background-color: #555555;
+}
+
+/********************
+* Tipografia
+********************/
+/********************
+* Borders
+********************/
+/********************
+* Background image
+********************/
+.background-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background-image-parallax {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/********************
+* Botones
+********************/
+.boton {
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+.boton:hover {
+  background-color: #cc3344;
+}
+
+/********************
+* Imagenes
+********************/
+.imagen {
+  max-width: 100%;
+  height: auto;
+}
+
+.imagen-circular {
+  border-radius: 50%;
+  display: block;
+}
+
+.imagen-centrada {
+  display: block;
+  margin: auto;
+}
+
+/********************
+* Titulos
+********************/
+.molecula-titulo-principal {
+  letter-spacing: 1px;
+}
+
+.molecula-subtitulo {
+  letter-spacing: 0.7px;
+}
+
+.molecula-titulo-general {
+  letter-spacing: 0.5px;
+}
+
+.molecula-subtitulo {
+  font-weight: 400;
+}
+
+.molecula-titulo-general, .molecula-titulo-principal {
+  font-weight: 700;
+}
+
+.molecula-titulo-general {
+  font-size: 2.2rem;
+}
+
+/********************
+* Tarjetas
+********************/
+.tarjeta {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.tarjeta-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.tarjeta-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.tarjeta-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/********************
+* Sliders
+********************/
+.slider-style1 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+.slider-style1 li {
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  width: inherit;
+  height: inherit;
+  transition: opacity 0.5s;
+  background: #fff;
+}
+.slider-style1 li img {
+  /*width: 100%;
+  		height: 300px;*/
+  object-fit: cover;
+}
+.slider-style1 li:first-child {
+  opacity: 1;
+  /*Mostramos el primer <li>*/
+}
+.slider-style1 li:target {
+  opacity: 1;
+  /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.slide-indicadores-style1 {
+  text-align: center;
+  margin: 30px;
+}
+.slide-indicadores-style1 li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 50px;
+}
+.slide-indicadores-style1 li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+  font-size: 18px;
+  border-radius: 100%;
+  border: 1px solid #222;
+}
+
+/*******************************************/
+/*ESTILO 2*/
+.tab {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.tab button {
+  /* Style the buttons that are used to open the tab content */
+  background-color: #ffffff;
+  color: #222;
+  float: left;
+  border: 1px solid #222;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  font-size: 1.2rem;
+  margin-right: 20px;
+  margin-left: 20px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.tab button:hover {
+  /*Change background color of buttons on hover */
+  background-color: #ee3344;
+  color: #ffffff;
+  border: 1px solid #faa;
+}
+.tab button.active {
+  /* Create an active/current tablink class */
+  background-color: #ee3344;
+  border: 1px solid #faa;
+  color: #fff;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  margin-top: 30px;
+}
+
+/********************
+* Sections
+********************/
+.seccion-general {
+  padding: 50px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
