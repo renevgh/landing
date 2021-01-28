@@ -1,4 +1,6 @@
 *.zip
 .DS_Store
 .DS_Store?
-/imagen/logotipos-profesionales/prepros.config
+imagen/logotipos-profesionales/prepros.config
+imagen/logotipos-profesionales/tabs.html
+imagen/logotipos-profesionales/test

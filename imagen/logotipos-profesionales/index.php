@@ -16,7 +16,7 @@
 	<meta name="author" content="ITedup" />
 
 	<!-- Imagen destacada -->
-	<meta property="og:image" content="#"><!-- dentro de content escribir la ruta donde se encuentra la imagen destacada. -->
+	<meta property="og:image" content="images/logotipos-profesionales.jpg"><!-- dentro de content escribir la ruta donde se encuentra la imagen destacada. -->
 	<meta property="og:image:type" content="image/png">
 	<meta property="og:image:width" content="1920">
 	<meta property="og:image:height" content="1080">
