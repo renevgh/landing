@@ -81,12 +81,12 @@
 			/*Change background color of buttons on hover */
 			background-color: #ee3344;
 			color: #ffffff;
-			border: 1px solid #faa;
+			border: 1px solid #ee3344;
 		}
 		&.active{
 			/* Create an active/current tablink class */
 			background-color: #ee3344;
-			border: 1px solid #faa;
+			border: 1px solid #ee3344;
 			color: #fff;
 		}
 	}

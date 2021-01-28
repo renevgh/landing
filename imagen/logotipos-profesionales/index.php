@@ -286,7 +286,7 @@
 					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/l angolo color.png">
 				</div>
 				<div class="column-4 column-m-4">
-					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/bce 1.png">
+					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-klpvc.svg">
 				</div>
 				<div class="column-4 column-m-4">
 					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-diebe.svg">
@@ -295,7 +295,7 @@
 					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-east-coast-alt.svg">
 				</div>
 				<div class="column-4 column-m-4">
-					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-klpvc.svg">
+					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/bce 1.png">
 				</div>
 				<div class="column-4 column-m-4">
 					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-mobiliere.svg">
@@ -349,37 +349,6 @@
     $('li a.activo').removeClass('activo');
     $(this).addClass('activo');
 });
-  </script>
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container2', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      // init: false,
-      pagination: {
-        el: '.swiper-pagination-testimonios',
-        clickable: true,
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 10,
-        },
-        1024: {
-          slidesPerView: 3,
-          spaceBetween: 10,
-        },
-      }
-    });
   </script>
   <script>
 		function openCity(evt, cityName) {
