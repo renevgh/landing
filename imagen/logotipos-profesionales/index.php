@@ -66,13 +66,13 @@
 	</style>
 </head>
 <body>
-	<section class="headerPage">
+	<section class="headerPage background-image-parallax" style="background-image: url(images/fondo-clear.jpg);">
 		<div class="contenido-amplio">
 			<div class="fila">
 				<div class="column-12 column-m-12" style="padding-right: 0; padding-left: 0;">
 					<div class="headerPage__contenido">
 						<img class="imagen imagen-centrada headerPage__contenido--logo" src="https://itedup.com/wp-content/uploads/itedup-logo-animated.gif">
-						<img class="imagen imagen-centrada headerPage__contenido--imagen" src="images/logotipos-profesionales-home.jpg">
+						<img class="imagen imagen-centrada headerPage__contenido--imagen" src="images/logotipos-profesonales-home.png">
 						<h1 class="molecula-titulo-principal color-secundario headerPage__contenido--titulo">Logotipos Profesionales</h1>
 						<h2 class="molecula-subtitulo color-secundarioA headerPage__contenido--subtitulo">Deja el diseño de tu logo en manos de los profesionales</h2>
 						<a class="boton background-primario color-blanco headerPage__contenido--boton" href="#paquetes">VER PAQUETES</a>
@@ -218,7 +218,7 @@
 					<div id="tabuno" class="tabcontent">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
-						    	<img class="imagen imagen-centrada slider__imagen" src="images/INSPIRACION.png"/>
+						    	<img class="imagen imagen-centrada slider__imagen" src="images/inspiracion.svg"/>
 						    </div>
 					    	<div class="column-12 column-m-6">
 					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">1.- Inspiración</h3>
@@ -231,7 +231,7 @@
 					<div id="tabdos" class="tabcontent">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
-						    	<img class="imagen imagen-centrada slider__imagen" src="images/REVISION.png"/>
+						    	<img class="imagen imagen-centrada slider__imagen" src="images/revisiones.svg"/>
 						    </div>
 					    	<div class="column-12 column-m-6">
 					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">2.- Revisiones</h3>
@@ -244,7 +244,7 @@
 					<div id="tabtres" class="tabcontent">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
-						    	<img class="imagen imagen-centrada slider__imagen" src="images/ENTREGA.png"/>
+						    	<img class="imagen imagen-centrada slider__imagen" src="images/entrega.svg"/>
 						    </div>
 					    	<div class="column-12 column-m-6">
 					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">3.- Entrega</h3>
