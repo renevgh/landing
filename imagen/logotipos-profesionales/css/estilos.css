@@ -15,13 +15,13 @@
     right: 0;
 }
 .headerPage__contenido--imagen{
-  width: 100%;
+  width: 64rem;
 
 }
 .headerPage__contenido--titulo{
 	font-size: 3rem;
 	text-align: center;
-  margin-top: -40px;
+  /*margin-top: -40px;*/
 }
 .headerPage__contenido--subtitulo{
 	font-size: 1.2rem;

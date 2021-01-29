@@ -72,7 +72,7 @@
 				<div class="column-12 column-m-12" style="padding-right: 0; padding-left: 0;">
 					<div class="headerPage__contenido">
 						<img class="imagen imagen-centrada headerPage__contenido--logo" src="https://itedup.com/wp-content/uploads/itedup-logo-animated.gif">
-						<img class="imagen imagen-centrada headerPage__contenido--imagen" src="images/logotipos-profesonales-home.png">
+						<img class="imagen imagen-centrada headerPage__contenido--imagen" src="images/logotipos-profesionales-home.svg">
 						<h1 class="molecula-titulo-principal color-secundario headerPage__contenido--titulo">Logotipos Profesionales</h1>
 						<h2 class="molecula-subtitulo color-secundarioA headerPage__contenido--subtitulo">Deja el diseño de tu logo en manos de los profesionales</h2>
 						<a class="boton background-primario color-blanco headerPage__contenido--boton" href="#paquetes">VER PAQUETES</a>
@@ -103,7 +103,7 @@
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
 											<li>1 Propuesta</li>
-								      		<li>3 Revisiones</li>
+								      		<li>2 Revisiones</li>
 										</ul>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
@@ -116,12 +116,12 @@
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
 										<h3 class="s-paquetes__tarjeta-header--nombre">Básico</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio">$750 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<h4 class="s-paquetes__tarjeta-header--precio">$1,000 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
 											<li>3 Propuestas</li>
-	      									<li>5 Revisiones</li>
+	      									<li>2 Revisiones</li>
 										</ul>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
@@ -134,12 +134,12 @@
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
 										<h3 class="s-paquetes__tarjeta-header--nombre">Avanzado</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio">$1,050 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<h4 class="s-paquetes__tarjeta-header--precio">$1,500 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
 											<li>5 Propuestas</li>
-					      					<li>5 Revisiones</li>
+					      					<li>3 Revisiones</li>
 										</ul>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
@@ -152,13 +152,13 @@
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
 										<h3 class="s-paquetes__tarjeta-header--nombre">Premium</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio">$2,100 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<h4 class="s-paquetes__tarjeta-header--precio">$3,000 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
 											<li>Estudio de Marca</li>
-					      					<li>3 Propuestas</li>
-					      					<li>5 Revisiones</li>
+					      					<li>5 Propuestas</li>
+					      					<li>3 Revisiones</li>
 										</ul>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
@@ -171,14 +171,14 @@
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
 										<h3 class="s-paquetes__tarjeta-header--nombre">Enterprise</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio">$5,600 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<h4 class="s-paquetes__tarjeta-header--precio">$8,000 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
 											<li>Estudio de Marca</li>
 					      					<li>5 Propuestas</li>
-					      					<li>5 Revisiones</li>
-					      					<li>Guía de Marca con 5 Slides</li>
+					      					<li>Revisiones Ilimitadas</li>
+					      					<li>Brandbook Básico</li>
 										</ul>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
