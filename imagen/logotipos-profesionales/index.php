@@ -300,6 +300,9 @@
 				<div class="column-4 column-m-4">
 					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-mobiliere.svg">
 				</div>
+				<div class="column-4 column-m-4">
+					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-pbcautomotive.svg">
+				</div>
 			</div>
 		</div>
 	</section>
