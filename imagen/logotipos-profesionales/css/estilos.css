@@ -129,12 +129,31 @@
     display: inline-block;
   }
 }
+@media (max-width: 992px){
+  .s-paquetes__tarjeta-header--precio{
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 768px){
+  .s-paquetes__tarjeta-header--precio{
+    font-size: 1.6rem;
+  }
+  .s-paquetes__tarjeta-lista li{
+    font-size: 0.8rem;
+  }
+}
 @media (max-width: 600px){
   .b-w-d{
     display: none;
   }
   .b-w-m{
     display: inline-block;
+  }
+  .s-paquetes__tarjeta-lista li{
+    font-size: 1rem;
+  }
+  .s-paquetes__tarjeta-header--precio{
+    font-size: 2rem;
   }
 }
 

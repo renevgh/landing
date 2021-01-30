@@ -97,8 +97,8 @@
 					      	<div class="swiper-slide">
 						      	<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
-										<h3 class="s-paquetes__tarjeta-header--nombre">Express</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio">$500 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Express</h3>
+										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$500 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
@@ -115,8 +115,8 @@
 					      	<div class="swiper-slide">
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
-										<h3 class="s-paquetes__tarjeta-header--nombre">Básico</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio">$1,000 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Básico</h3>
+										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$1,000 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
@@ -133,8 +133,8 @@
 					      	<div class="swiper-slide">
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
-										<h3 class="s-paquetes__tarjeta-header--nombre">Avanzado</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio">$1,500 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Avanzado</h3>
+										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$1,500 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
@@ -151,8 +151,8 @@
 					      	<div class="swiper-slide">
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
-										<h3 class="s-paquetes__tarjeta-header--nombre">Premium</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio">$3,000 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Premium</h3>
+										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$3,000 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
@@ -170,8 +170,8 @@
 					      	<div class="swiper-slide">
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
-										<h3 class="s-paquetes__tarjeta-header--nombre">Enterprise</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio">$8,000 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Enterprise</h3>
+										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$8,000 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">

@@ -45,10 +45,8 @@
 	.st39{fill:#DD9999;}
 
 
-
-	#lapiz,#LIBROS,#branding1,#BRANDBOOK,#guia_color,#branding2{
+#lapiz{
   animation: movimiento 2.5s linear infinite;
-  z-index: 9;
 }
 
 @keyframes movimiento{
@@ -56,11 +54,81 @@
     transform: translateY(0);
   }
   50%{
-    transform: translateY(30px);
+    transform: translateY(20px);
   }
   100%{
-    transform: translateY(0);
+    transform: translateY(1px);
   }
+}
+#guia_color{
+	animation: mov-gc 2s linear infinite;
+}
+@keyframes mov-gc{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(8px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+#LIBROS{
+	animation: mov-l 3s linear infinite;
+}
+@keyframes mov-l{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(15px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+#branding1{
+	animation: mov-b1 4s linear infinite;
+}
+@keyframes mov-b1{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(40px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+#BRANDBOOK{
+	animation: mov-bb 2.5s linear infinite;
+}
+@keyframes mov-bb{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(25px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+#branding2{
+	animation: mov-b2 3.5s linear infinite;
+}
+@keyframes mov-b2{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(15px);
+	}
+	100%{
+		transform: translateY(0);
+	}
 }
 </style>
 <g id="Capa_1">
