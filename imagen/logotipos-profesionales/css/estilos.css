@@ -81,6 +81,7 @@
 .s-paquetes__tarjeta-header--precio{
 	font-size: 2rem;
 	font-weight: 700;
+  padding-top: 20px;
 }
 .s-paquetes__tarjeta-header--moneda{
 	font-size: 0.8rem;

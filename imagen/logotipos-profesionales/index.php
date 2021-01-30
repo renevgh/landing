@@ -286,7 +286,7 @@
 					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/l angolo color.png">
 				</div>
 				<div class="column-4 column-m-4">
-					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-klpvc.svg">
+					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-klpvc.jpg">
 				</div>
 				<div class="column-4 column-m-4">
 					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-diebe.svg">
