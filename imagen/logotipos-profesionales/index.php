@@ -121,7 +121,7 @@
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
 											<li>3 Propuestas</li>
-	      									<li>2 Revisiones</li>
+	      									<li>6 Revisiones</li>
 										</ul>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
@@ -139,7 +139,7 @@
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
 											<li>5 Propuestas</li>
-					      					<li>3 Revisiones</li>
+					      					<li>10 Revisiones</li>
 										</ul>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
@@ -157,8 +157,8 @@
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
 											<li>Estudio de Marca</li>
-					      					<li>5 Propuestas</li>
-					      					<li>3 Revisiones</li>
+					      					<li>3 Propuestas</li>
+					      					<li>6 Revisiones</li>
 										</ul>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
@@ -177,7 +177,7 @@
 										<ul class="s-paquetes__tarjeta-lista">
 											<li>Estudio de Marca</li>
 					      					<li>5 Propuestas</li>
-					      					<li>Revisiones Ilimitadas</li>
+					      					<li>15 Revisiones</li>
 					      					<li>Brandbook Básico</li>
 										</ul>
 									</div>
