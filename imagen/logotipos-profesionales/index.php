@@ -18,8 +18,8 @@
 	<!-- Imagen destacada -->
 	<meta property="og:image" content="https://servicios.itedup.com.mx/imagen/logotipos-profesionales/images/logotipos-profesionales-destacada.jpg"><!-- dentro de content escribir la ruta donde se encuentra la imagen destacada. -->
 	<meta property="og:image:type" content="image/png">
-	<meta property="og:image:width" content="1200">
-	<meta property="og:image:height" content="630">
+	<meta property="og:image:width" content="300">
+	<meta property="og:image:height" content="200">
 
 	<!-- Analiticos -->
 
