@@ -11,7 +11,7 @@
 
 	<!-- SEO página Home -->
 	<title>ITedup | Logotipo Profesional</title>
-	<meta name="description" content="#" /><!-- descripción de la página-->
+	<meta name="description" content="Deja el diseño de tu logo en manos de los profesionales." /><!-- descripción de la página-->
 	<meta name="keywords" content="logotipo profesional, logo profesional, logo, logotipo, diseño logo, diseño logotipo, diseño de logo, diseño de logotipo, diseño marca, diseño de marca, diseño gráfico" /><!-- palabras clave, separar cada keyword con una coma(,).-->
 	<meta name="author" content="ITedup" />
 
