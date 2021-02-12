@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title></title>
+	<!--style type="text/css">
+		/* Style the tab */
+.tab {
+  overflow: hidden;
+    /* border: 1px solid #ccc; */
+    /* background-color: #f1f1f1; */
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+   float: left;
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    font-size: 1.2rem;
+    margin-right: 40px;
+    transition: ease 1s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+  border: 1px solid;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent img{
+	display: block!important;
+}
+</style-->
+</head>
+<body>
+	<section>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</section>
+	<section>
+		<div class="contenido">
+			<div class="fila">
+				<div class="column-12">
+					<!-- Tab links -->
+					<div class="tab">
+						<button class="tablinks" onclick="openCity(event, 'tabuno')" id="defaultOpen">1</button>
+  						<button class="tablinks" onclick="openCity(event, 'tabdos')">2</button>
+  						<button class="tablinks" onclick="openCity(event, 'tabtres')">3</button>
+					</div>
+					<div class="linea-horizontal">
+						<hr>
+					</div>
+
+					<!-- Tab content -->
+					<div id="tabuno" class="tabcontent">
+  						<div class="fila" style="align-items: center;">
+						    <div class="column-12 column-m-6">
+						    	<img class="imagen imagen-centrada slider__imagen" src="https://via.placeholder.com/400x200.png"/>
+						    </div>
+					    	<div class="column-12 column-m-6">
+					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">1.- Inspiración</h3>
+					    		<p class="slider__descripcion color-secundarioA">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						    	<ul class="slider__ul">
+						    		<li class="slider__li">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						    		<li class="slider__li">Excepteur sint occaecat cupidatat non proident.</li>
+						    		<li class="slider__li">Ut enim ad minim veniam, quis nostrud exercitation</li>
+						    	</ul>
+					    	</div>
+					    </div>
+					</div>
+
+					<div id="tabdos" class="tabcontent">
+  						<div class="fila" style="align-items: center;">
+						    <div class="column-12 column-m-6">
+						    	<img class="imagen imagen-centrada slider__imagen" src="https://via.placeholder.com/400x200.png"/>
+						    </div>
+					    	<div class="column-12 column-m-6">
+					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">2.- Creatividad</h3>
+					    		<p class="slider__descripcion color-secundarioA">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						    	<ul class="slider__ul">
+						    		<li class="slider__li">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						    		<li class="slider__li">Excepteur sint occaecat cupidatat non proident.</li>
+						    		<li class="slider__li">Ut enim ad minim veniam, quis nostrud exercitation.</li>
+						    	</ul>
+					    	</div>
+					    </div>
+					</div>
+
+					<div id="tabtres" class="tabcontent">
+  						<div class="fila" style="align-items: center;">
+						    <div class="column-12 column-m-6">
+						    	<img class="imagen imagen-centrada slider__imagen" src="https://via.placeholder.com/400x200.png"/>
+						    </div>
+					    	<div class="column-12 column-m-6">
+					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">3.- Profesionalismo</h3>
+					    		<p class="slider__descripcion color-secundarioA">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						    	<ul class="slider__ul">
+						    		<li class="slider__li">Ut enim ad minim veniam, quis nostrud exercitation.</li>
+						    		<li class="slider__li">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						    		<li class="slider__li">Excepteur sint occaecat cupidatat non proident.</li>
+						    	</ul>
+					    	</div>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</section>
+	<script>
+		function openCity(evt, cityName) {
+		  // Declare all variables
+		  var i, tabcontent, tablinks;
+
+		  // Get all elements with class="tabcontent" and hide them
+		  tabcontent = document.getElementsByClassName("tabcontent");
+		  for (i = 0; i < tabcontent.length; i++) {
+		    tabcontent[i].style.display = "none";
+		  }
+
+		  // Get all elements with class="tablinks" and remove the class "active"
+		  tablinks = document.getElementsByClassName("tablinks");
+		  for (i = 0; i < tablinks.length; i++) {
+		    tablinks[i].className = tablinks[i].className.replace(" active", "");
+		  }
+
+		  // Show the current tab, and add an "active" class to the button that opened the tab
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+	</script>
+	<script>
+		// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+	</script>
+</body>
+</html>

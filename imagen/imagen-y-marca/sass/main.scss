@@ -1,0 +1,23 @@
+@import 'componentes/_columnas';
+@import 'componentes/_fila';
+@import 'componentes/_contenido';
+
+@import 'atomos/_atomo-color';
+@import 'atomos/_atomo-background';
+@import 'atomos/_atomo-tipografia';
+@import 'atomos/_atomo-borders';
+
+@import 'moleculas/_molecula-background-image';
+@import 'moleculas/_molecula-botones';
+@import 'moleculas/_molecula-imagenes';
+@import 'moleculas/_molecula-inputs';
+@import 'moleculas/_molecula-titulos';
+@import 'moleculas/_molecula-tarjetas';
+@import 'moleculas/_molecula-sliders';
+
+@import 'organismos/_organismo-footer';
+@import 'organismos/_organismo-header';
+@import 'organismos/_organismo-nav';
+@import 'organismos/_organismo-sections';
+
+@import '_general';

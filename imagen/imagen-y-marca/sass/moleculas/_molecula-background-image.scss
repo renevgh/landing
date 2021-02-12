@@ -1,0 +1,24 @@
+/********************
+* Background image
+********************/
+
+/************
+variables
+*************/
+$background-position-center:			center;
+$background-position-top:				top;
+$background-position-bottom:			bottom;
+
+@mixin imagen-fondo{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.background-image{
+	@include imagen-fondo;
+	background-position: $background-position-center;
+}
+.background-image-parallax{
+	@include imagen-fondo;
+	background-attachment: fixed;
+	background-position: $background-position-top;
+}
