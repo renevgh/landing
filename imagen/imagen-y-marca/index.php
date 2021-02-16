@@ -3,7 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/main.css?<?php echo time(); ?>">
+	<link rel="stylesheet" type="text/css" href="../../css/main.css?<?php echo time(); ?>">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css?<?php echo time(); ?>">
 
 	<!-- Favicon -->
@@ -83,9 +83,9 @@
 				<div class="column-12 column-m-12" style="padding-right: 0; padding-left: 0;">
 					<div class="headerPage__contenido">
 						<img class="imagen imagen-centrada headerPage__contenido--logo" src="https://itedup.com/wp-content/uploads/itedup-logo-animated.gif">
-						<img class="imagen imagen-centrada headerPage__contenido--imagen" src="https://via.placeholder.com/900x600">
-						<h1 class="molecula-titulo-principal color-secundario headerPage__contenido--titulo">Imagen y Marca</h1>
-						<h2 class="molecula-subtitulo color-secundarioA headerPage__contenido--subtitulo">Más que un logotipo, creamos marca y un estilo de vida.</h2>
+						<img class="imagen imagen-centrada headerPage__contenido--imagen" src="images/imgen-corporativa.svg">
+						<h1 class="molecula-titulo-principal color-secundario headerPage__contenido--titulo">Imagen Corporativa y Diseño de Marca</h1>
+						<h2 class="molecula-subtitulo color-secundarioA headerPage__contenido--subtitulo">Somos expertos en creación de marcas.</h2>
 						<a class="boton background-primario color-blanco headerPage__contenido--boton" href="#paquetes">VER PAQUETES</a>
 					</div>
 				</div>
@@ -213,7 +213,7 @@
 										<!--a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Express." target="_blank">CONTRATAR</a>
 										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Express." target="_blank">CONTRATAR</a-->
 										<h3>$16,800</h3>
-										<span>Ahorras $2,100</span>
+										<span>Ahorras $7,200</span>
 									</div>
 								</div>
 					      	</div>
@@ -248,7 +248,7 @@
 					<div id="tabuno" class="tabcontent">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
-						    	<img class="imagen imagen-centrada slider__imagen" src="https://via.placeholder.com/420x200"/>
+						    	<img class="imagen imagen-centrada slider__imagen" src="images/inspiracion.svg"/>
 						    </div>
 					    	<div class="column-12 column-m-6">
 					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">1.- Inspiración</h3>
@@ -261,7 +261,7 @@
 					<div id="tabdos" class="tabcontent">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
-						    	<img class="imagen imagen-centrada slider__imagen" src="https://via.placeholder.com/420x200"/>
+						    	<img class="imagen imagen-centrada slider__imagen" src="images/revisiones.svg"/>
 						    </div>
 					    	<div class="column-12 column-m-6">
 					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">2.- Revisiones</h3>
@@ -274,7 +274,7 @@
 					<div id="tabtres" class="tabcontent">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
-						    	<img class="imagen imagen-centrada slider__imagen" src="https://via.placeholder.com/420x200"/>
+						    	<img class="imagen imagen-centrada slider__imagen" src="images/entrega.svg"/>
 						    </div>
 					    	<div class="column-12 column-m-6">
 					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">3.- Entrega</h3>
@@ -313,11 +313,20 @@
 					    <div class="swiper-wrapper">
 					      	<div class="swiper-slide">
 						      	<div class="testimonios-card">
-						      		<img class="imagen testimonios-card__imagen" src="images/logo-diebe.svg">
-						      		<h3 class="testimonios-card__nombre-empresa">Nombre de la empresa</h3>
+						      		<img class="imagen testimonios-card__imagen" src="images/tx-tint-logo.png">
+						      		<!--h3 class="testimonios-card__nombre-empresa">Nombre de la empresa</h3-->
+						      		<p class="testimonios-card__testimonio-texto">¡Me encanta mi logotipo! He recibido complementos y siempre estoy feliz en recomendarlos.</p>
+						      		<h4 class="testimonios-card__nombre">Mitchel Govea</h4>
+						      		<h5 class="testimonios-card__puesto">Fundador</h5>
+						      	</div>
+					      	</div>
+					      	<div class="swiper-slide">
+					      		<div class="testimonios-card">
+						      		<img class="imagen testimonios-card__imagen" src="images/sgmass-logo.png">
+						      		<!--h3 class="testimonios-card__nombre-empresa">Nombre de la empresa</h3-->
 						      		<p class="testimonios-card__testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						      		<h4 class="testimonios-card__nombre">Nombre y Apellido</h4>
-						      		<h5 class="testimonios-card__puesto">Titulo</h5>
+						      		<h4 class="testimonios-card__nombre">Ivan Blanco</h4>
+						      		<h5 class="testimonios-card__puesto">Director General</h5>
 						      	</div>
 					      	</div>
 					      	<div class="swiper-slide">
@@ -331,7 +340,43 @@
 					      	</div>
 					      	<div class="swiper-slide">
 					      		<div class="testimonios-card">
-						      		<img class="imagen testimonios-card__imagen" src="images/logo-diebe.svg">
+						      		<img class="imagen testimonios-card__imagen" src="images/l angolo color.png">
+						      		<h3 class="testimonios-card__nombre-empresa">Nombre de la empresa</h3>
+						      		<p class="testimonios-card__testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						      		<h4 class="testimonios-card__nombre">Nombre y Apellido</h4>
+						      		<h5 class="testimonios-card__puesto">Titulo</h5>
+						      	</div>
+					      	</div>
+					      	<div class="swiper-slide">
+					      		<div class="testimonios-card">
+						      		<img class="imagen testimonios-card__imagen" src="images/logo-pbcautomotive.svg">
+						      		<h3 class="testimonios-card__nombre-empresa">Nombre de la empresa</h3>
+						      		<p class="testimonios-card__testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						      		<h4 class="testimonios-card__nombre">Nombre y Apellido</h4>
+						      		<h5 class="testimonios-card__puesto">Titulo</h5>
+						      	</div>
+					      	</div>
+					      	<div class="swiper-slide">
+					      		<div class="testimonios-card">
+						      		<img class="imagen testimonios-card__imagen" src="images/bce 1.png">
+						      		<h3 class="testimonios-card__nombre-empresa">Nombre de la empresa</h3>
+						      		<p class="testimonios-card__testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						      		<h4 class="testimonios-card__nombre">Nombre y Apellido</h4>
+						      		<h5 class="testimonios-card__puesto">Titulo</h5>
+						      	</div>
+					      	</div>
+					      	<div class="swiper-slide">
+					      		<div class="testimonios-card">
+						      		<img class="imagen testimonios-card__imagen" src="images/logo-klpvc.jpg">
+						      		<h3 class="testimonios-card__nombre-empresa">Nombre de la empresa</h3>
+						      		<p class="testimonios-card__testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						      		<h4 class="testimonios-card__nombre">Nombre y Apellido</h4>
+						      		<h5 class="testimonios-card__puesto">Titulo</h5>
+						      	</div>
+					      	</div>
+					      	<div class="swiper-slide">
+					      		<div class="testimonios-card">
+						      		<img class="imagen testimonios-card__imagen" src="images/logo-mobiliere.svg">
 						      		<h3 class="testimonios-card__nombre-empresa">Nombre de la empresa</h3>
 						      		<p class="testimonios-card__testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 						      		<h4 class="testimonios-card__nombre">Nombre y Apellido</h4>

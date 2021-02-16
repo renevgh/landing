@@ -3,7 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/main.css?<?php echo time(); ?>">
+	<link rel="stylesheet" type="text/css" href="../../css/main.css?<?php echo time(); ?>">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css?<?php echo time(); ?>">
 
 	<!-- Favicon -->
