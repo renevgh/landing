@@ -22,6 +22,112 @@
 	.st16{fill:none;stroke:#323232;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;}
 	.st17{fill:none;stroke:#222222;stroke-width:0.9402;stroke-miterlimit:10;}
 	.st18{fill:#B32633;}
+	#instagram_1_{
+		animation: rot-instagram 3s ease infinite;
+		transform-origin: center bottom;
+	}
+	#celular_1_{
+		animation: rot-celular_1_ 3s ease infinite;
+		transform-origin: center bottom;
+	}
+	#facebook_1_{
+		animation: rot-facebook_1_ 3s ease infinite;
+		transform-origin: center bottom;
+	}
+	#guia_marca_1_{
+		animation: rot-guia_marca1 3s ease infinite;
+		transform-origin: center bottom;
+		transform: rotate(14.5deg);
+	}
+	#folleto{
+		animation: bouncein-folleto 4s ease infinite;
+		opacity: 1;
+		transform: scale(0.1);
+		transform-origin: center center;
+	}
+	#email1{
+		animation: flot-email 2s ease infinite;
+	}
+	#tarjeta{
+		animation: flot-tarjeta 3s linear infinite;
+	}
+	@keyframes rot-instagram{
+		0%{
+			transform: rotate(20.5deg);
+		}
+		50%{
+			transform: rotate(0deg);
+		}
+		100%{
+			transform: rotate(20.5deg);
+		}
+	}
+	@keyframes rot-celular_1_{
+		0%{
+			transform: rotate(16.5deg);
+		}
+		50%{
+			transform: rotate(0deg);
+		}
+		100%{
+			transform: rotate(16.5deg);
+		}
+	}
+	@keyframes rot-facebook_1_{
+		0%{
+			transform: rotate(12.5deg);
+		}
+		50%{
+			transform: rotate(0deg);
+		}
+		100%{
+			transform: rotate(12.5deg);
+		}
+	}
+	@keyframes rot-guia_marca1{
+		0%{
+			transform: rotate(-10.5deg);
+		}
+		50%{
+			transform: rotate(0deg);
+		}
+		100%{
+			transform: rotate(-10.5deg);
+		}
+	}
+	@keyframes bouncein-folleto{
+		0%{
+			transform: scale(0.8)
+		}
+		50%{
+			transform: scale(1);
+		}
+		100%{
+			transform: scale(0.8);
+		}
+	}
+	@keyframes flot-email{
+		0%{
+			transform: translateY(0);
+		}
+		50%{
+			transform: translateY(15px);
+		}
+		100%{
+			transform: translateY(0);
+		}
+	}
+	@keyframes flot-tarjeta{
+		0%{
+			transform: translateY(0);
+		}
+		50%{
+			transform: translateY(30px);
+		}
+		100%{
+			transform: translateY(0);
+		}
+	}
 </style>
 <g id="fondo">
 	<g>
@@ -35,7 +141,7 @@
 	</g>
 </g>
 <g id="celular">
-	<g id="instagram_1_">
+	<g id="instagram_1_"><!--primer imagen-->
 		<path class="st1" d="M361.3,351l-23.8-19.8l20.4-24.4l23.8,19.8l-26.4-28.8l-21.2-17.6l2.4-2.8l0,0l0,0l-3-3.2l-2.8,3.3L307,257.6
 			l5.4-6.5l-8.2-9l-0.2,0.3c-0.5,0.5-1.1,0.8-1.8,0.8c-0.5,0-1-0.2-1.5-0.5l-5.6-4.7c-1-0.8-1.1-2.3-0.3-3.3l1.3-1.5l-16.6-18.1
 			l-4.6,5.6l-0.5-0.5l4.7-5.6l-7.8-8.5c0,0,0,0-0.1,0c-0.6-0.5-1.1-1.1-1.4-1.5l-24.2-26.5L203.1,229l160.3,133.6l75-89.9
@@ -350,7 +456,7 @@
 		<rect x="391" y="256.6" transform="matrix(0.6404 -0.768 0.768 0.6404 -62.626 410.3823)" class="st7" width="31.8" height="31"/>
 		<polygon class="st4" points="274.9,220.8 279.5,215.2 314,173.9 313.4,173.4 279,214.7 274.3,220.3 		"/>
 	</g>
-	<g id="celular_1_">
+	<g id="celular_1_"><!--segunda imagen-->
 		<polygon class="st3" points="395.5,141.1 380.9,121.1 378.6,120.7 396,143.8 		"/>
 		<polygon class="st3" points="417.4,170.3 402.3,149.6 400.1,149.2 417.9,173 		"/>
 		<path class="st8" d="M467,251.7c-1.7,5.4-5.5,8.4-5.5,8.4s-67.2,46.6-71.8,49.2c-5.1,2.8-11.1,0.9-15.3-3.6
@@ -377,7 +483,7 @@
 			c4.2,4.5,10.2,6.4,15.3,3.6c4.7-2.6,71.8-49.2,71.8-49.2s3.8-2.9,5.5-8.4c1.1-3.3-0.5-6.5-2.3-9.8c-1.1-2-41.3-57.7-74.6-103.5
 			c-17.8-24.4-33.7-46-40.5-55C349.4,83.6,349.2,83.7,349,83.8z"/>
 	</g>
-	<g id="facebook_1_">
+	<g id="facebook_1_"><!--tercera imagen-->
 		<polygon class="st1" points="365.4,281.3 379.7,310.9 380.1,310.8 413.8,257.5 		"/>
 		
 			<rect x="287.8" y="106.3" transform="matrix(0.9 -0.4358 0.4358 0.9 -12.3939 161.6026)" class="st1" width="116.6" height="3.1"/>

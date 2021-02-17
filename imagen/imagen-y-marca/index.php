@@ -83,7 +83,7 @@
 				<div class="column-12 column-m-12" style="padding-right: 0; padding-left: 0;">
 					<div class="headerPage__contenido">
 						<img class="imagen imagen-centrada headerPage__contenido--logo" src="https://itedup.com/wp-content/uploads/itedup-logo-animated.gif">
-						<img class="imagen imagen-centrada headerPage__contenido--imagen" src="images/imgen-corporativa.svg">
+						<img class="imagen imagen-centrada headerPage__contenido--imagen" src="images/imgen-corporativa-c.svg">
 						<h1 class="molecula-titulo-principal color-secundario headerPage__contenido--titulo">Imagen Corporativa y Diseño de Marca</h1>
 						<h2 class="molecula-subtitulo color-secundarioA headerPage__contenido--subtitulo">Somos expertos en creación de marcas.</h2>
 						<a class="boton background-primario color-blanco headerPage__contenido--boton" href="#paquetes">VER PAQUETES</a>
