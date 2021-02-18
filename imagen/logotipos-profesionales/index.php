@@ -21,6 +21,9 @@
 	<meta property="og:image:width" content="300">
 	<meta property="og:image:height" content="200">
 
+	<!--Font Awesome-->
+	<script src="https://kit.fontawesome.com/c75ae0540c.js" crossorigin="anonymous"></script>
+
 	<!-- Analiticos -->
 	<!-- Hotjar Tracking Code for https://servicios.itedup.com.mx/imagen/logotipos-profesionales -->
 	<script>
@@ -74,9 +77,72 @@
   background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0.5) 100%);
   z-index: -1;
 }
+.loaderIT 
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99999; 
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+.loaderIT__image{
+	position: absolute;
+	top: 80px;
+}
+.loaderIT__image img{
+	width: 100px;
+	height: auto;
+}
+.loaderIT__texto{
+	text-align: center;
+	position: absolute;
+	bottom: 120px;
+}
+.loaderIT__iconos{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 80px;
+}
+.loaderIT__iconos a{
+	padding-right: 20px;
+}
+.loaderIT__iconos i{
+	width: 32px;
+	height: 32px;
+	color: #ee3344;
+	border: 1px solid #ee3344;
+	border-radius: 100px;
+	line-height: 32px;
+	text-align: center;
+}
 	</style>
 </head>
 <body>
+	<div class="loaderIT">
+		<div class="loaderIT__image">
+			<img src="https://itedup.com/wp-content/uploads/2018/11/itedup-it.png" alt="Loading itedup">
+		</div>
+		<div class="loaderIT__texto">
+			<p>ITEDUP AGENCIA DIGITAL</p>
+		</div>
+		<div class="loaderIT__iconos">
+			<a href=""><i class="fab fa-facebook-f"></i></a>
+			<a href=""><i class="fab fa-instagram"></i></a>
+			<a href=""><i class="fab fa-linkedin-in"></i></a>
+			<a href=""><i class="fab fa-youtube"></i></a>
+			<a href=""><i class="fab fa-twitter"></i></a>
+		</div>
+	</div>
 	<section class="headerPage background-image-parallax" style="background-image: url(images/fondo-clear.jpg);">
 		<div class="contenido-amplio">
 			<div class="fila">
@@ -390,5 +456,11 @@
 		// Get the element with id="defaultOpen" and click on it
 		document.getElementById("defaultOpen").click();
 	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript">
+      $(window).load(function() {
+          $(".loaderIT").fadeOut(2000);//aquí se puede jugar con el numero 2000, se puede cambiar por 'slow' para una animación diferente.
+      });
+    </script>
 </body>
 </html>
