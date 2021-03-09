@@ -10,7 +10,7 @@
 	<link rel="shortcut icon" href="https://itedup.com/wp-content/uploads/2018/11/itedup-it.png" />
 
 	<!-- SEO página Home -->
-	<title>ITedup | Imagen y Marca</title>
+	<title>ITedup | Certificado SSL</title>
 	<meta name="description" content="Deja el diseño de tu logo en manos de los profesionales." /><!-- descripción de la página-->
 	<meta name="keywords" content="logotipo profesional, logo profesional, logo, logotipo, diseño logo, diseño logotipo, diseño de logo, diseño de logotipo, diseño marca, diseño de marca, diseño gráfico" /><!-- palabras clave, separar cada keyword con una coma(,).-->
 	<meta name="author" content="ITedup" />
@@ -105,6 +105,26 @@
 	position: absolute;
 	bottom: 120px;
 }
+.loaderIT__iconos{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 80px;
+}
+.loaderIT__iconos a{
+	padding-right: 20px;
+}
+.loaderIT__iconos i{
+	width: 32px;
+	height: 32px;
+	color: #ee3344;
+	border: 1px solid #ee3344;
+	border-radius: 100px;
+	line-height: 32px;
+	text-align: center;
+}
 </style>
 
 </head>
@@ -116,6 +136,13 @@
 		<div class="loaderIT__texto">
 			<p>ITEDUP AGENCIA DIGITAL</p>
 		</div>
+		<div class="loaderIT__iconos">
+			<a href=""><i class="fab fa-facebook-f"></i></a>
+			<a href=""><i class="fab fa-instagram"></i></a>
+			<a href=""><i class="fab fa-linkedin-in"></i></a>
+			<a href=""><i class="fab fa-youtube"></i></a>
+			<a href=""><i class="fab fa-twitter"></i></a>
+		</div>
 	</div>
 	<section class="headerPage background-image-parallax" style="background-image: url(images/fondo-clear.jpg);">
 		<div class="contenido-amplio">
@@ -124,8 +151,8 @@
 					<div class="headerPage__contenido">
 						<img class="imagen imagen-centrada headerPage__contenido--logo" src="https://itedup.com/wp-content/uploads/itedup-logo-animated.gif">
 						<img class="imagen imagen-centrada headerPage__contenido--imagen" src="images/imgen-corporativa-c.svg">
-						<h1 class="molecula-titulo-principal color-secundario headerPage__contenido--titulo">Imagen Corporativa y Diseño de Marca</h1>
-						<h2 class="molecula-subtitulo color-secundarioA headerPage__contenido--subtitulo">Somos expertos en creación de marcas.</h2>
+						<h1 class="molecula-titulo-principal color-secundario headerPage__contenido--titulo">Certificado SSL</h1>
+						<h2 class="molecula-subtitulo color-secundarioA headerPage__contenido--subtitulo">Lorem ipsum doler sit amet.</h2>
 						<a class="boton background-primario color-blanco headerPage__contenido--boton" href="#paquetes">VER PAQUETES</a>
 					</div>
 				</div>

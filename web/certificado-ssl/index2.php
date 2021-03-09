@@ -1,5 +1,9 @@
+<?php
+    include "configuracion.php"
+    
+?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<meta charset="utf-8">
@@ -10,7 +14,7 @@
 	<link rel="shortcut icon" href="https://itedup.com/wp-content/uploads/2018/11/itedup-it.png" />
 
 	<!-- SEO página Home -->
-	<title>ITedup | Imagen y Marca</title>
+	<title><?php echo $lang['title-page'] ?></title>
 	<meta name="description" content="Deja el diseño de tu logo en manos de los profesionales." /><!-- descripción de la página-->
 	<meta name="keywords" content="logotipo profesional, logo profesional, logo, logotipo, diseño logo, diseño logotipo, diseño de logo, diseño de logotipo, diseño marca, diseño de marca, diseño gráfico" /><!-- palabras clave, separar cada keyword con una coma(,).-->
 	<meta name="author" content="ITedup" />
@@ -105,6 +109,26 @@
 	position: absolute;
 	bottom: 120px;
 }
+.loaderIT__iconos{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 80px;
+}
+.loaderIT__iconos a{
+	padding-right: 20px;
+}
+.loaderIT__iconos i{
+	width: 32px;
+	height: 32px;
+	color: #ee3344;
+	border: 1px solid #ee3344;
+	border-radius: 100px;
+	line-height: 32px;
+	text-align: center;
+}
 </style>
 
 </head>
@@ -114,7 +138,14 @@
 			<img src="https://itedup.com/wp-content/uploads/2018/11/itedup-it.png" alt="Loading itedup">
 		</div>
 		<div class="loaderIT__texto">
-			<p>ITEDUP AGENCIA DIGITAL</p>
+			<p><?php echo $lang['title-loading'] ?></p>
+		</div>
+		<div class="loaderIT__iconos">
+			<a href=""><i class="fab fa-facebook-f"></i></a>
+			<a href=""><i class="fab fa-instagram"></i></a>
+			<a href=""><i class="fab fa-linkedin-in"></i></a>
+			<a href=""><i class="fab fa-youtube"></i></a>
+			<a href=""><i class="fab fa-twitter"></i></a>
 		</div>
 	</div>
 	<section class="headerPage background-image-parallax" style="background-image: url(images/fondo-clear.jpg);">
@@ -124,9 +155,9 @@
 					<div class="headerPage__contenido">
 						<img class="imagen imagen-centrada headerPage__contenido--logo" src="https://itedup.com/wp-content/uploads/itedup-logo-animated.gif">
 						<img class="imagen imagen-centrada headerPage__contenido--imagen" src="images/imgen-corporativa-c.svg">
-						<h1 class="molecula-titulo-principal color-secundario headerPage__contenido--titulo">Imagen Corporativa y Diseño de Marca</h1>
-						<h2 class="molecula-subtitulo color-secundarioA headerPage__contenido--subtitulo">Somos expertos en creación de marcas.</h2>
-						<a class="boton background-primario color-blanco headerPage__contenido--boton" href="#paquetes">VER PAQUETES</a>
+						<h1 class="molecula-titulo-principal color-secundario headerPage__contenido--titulo"><?php echo $lang['titulo-primera-seccion'] ?></h1>
+						<h2 class="molecula-subtitulo color-secundarioA headerPage__contenido--subtitulo"><?php echo $lang['subtitulo-primera-seccion'] ?></h2>
+						<a class="boton background-primario color-blanco headerPage__contenido--boton" href="#paquetes"><?php echo $lang['boton-paquetes-primera-seccion'] ?></a>
 					</div>
 				</div>
 			</div>
@@ -136,8 +167,8 @@
 		<div class="contenido">
 			<div class="fila">
 				<div class="column-12">
-					<h3 class="molecula-titulo-general color-secundario s-paquetes__titulo">Paquetes</h3>
-					<h4 class="molecula-subtitulos color-secundarioA s-paquetes__subtitulo">Escoge el paquete que necesites</h4>
+					<h3 class="molecula-titulo-general color-secundario s-paquetes__titulo"><?php echo $lang['titulo-segunda-seccion'] ?></h3>
+					<h4 class="molecula-subtitulos color-secundarioA s-paquetes__subtitulo"><?php echo $lang['subtitulo-segunda-seccion'] ?></h4>
 				</div>
 			</div>
 			<div class="fila">
@@ -148,112 +179,112 @@
 					      	<div class="swiper-slide">
 						      	<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
-										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Básico</h3>
+										<h3 class="s-paquetes__tarjeta-header--nombre color-primario"><?php echo $lang['titulo-tarjeta-primera'] ?></h3>
 										<!--h4 class="s-paquetes__tarjeta-header--precio color-secundario">$500 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4-->
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Logotipo</h5>
-											<h6>5 Propuestas, 10 Revisiones</h6>
+											<h5><?php echo $lang['tarjeta1-cuerpo-titulo1'] ?></h5>
+											<h6><?php echo $lang['tarjeta1-cuerpo-descripcion1'] ?></h6>
 										</div>
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Guía de Marca</h5>
-											<h6>5 Slides</h6>
+											<h5><?php echo $lang['tarjeta1-cuerpo-titulo2'] ?></h5>
+											<h6><?php echo $lang['tarjeta1-cuerpo-descripcion2'] ?></h6>
 										</div>
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Tarjetas de presentación</h5>
-											<h6>x1000, 4x4, laminadas</h6>
+											<h5><?php echo $lang['tarjeta1-cuerpo-titulo3'] ?></h5>
+											<h6><?php echo $lang['tarjeta1-cuerpo-descripcion2'] ?>x1000, 4x4, laminadas</h6>
 										</div>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
 										<!--a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Express." target="_blank">CONTRATAR</a>
 										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Express." target="_blank">CONTRATAR</a-->
-										<h3>$6,150</h3>
-										<span>Ahorras $850</span>
+										<h3><?php echo $lang['tarjeta1-footer-precio1'] ?></h3>
+										<span><?php echo $lang['tarjeta1-footer-descuento1'] ?></span>
 									</div>
 								</div>
 					      	</div>
 					      	<div class="swiper-slide">
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
-										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Avanzado</h3>
+										<h3 class="s-paquetes__tarjeta-header--nombre color-primario"><?php echo $lang['titulo-tarjeta-segunda'] ?></h3>
 										<!--h4 class="s-paquetes__tarjeta-header--precio color-secundario">$500 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4-->
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Logotipo</h5>
-											<h6>5 Propuestas, 10 Revisiones</h6>
+											<h5><?php echo $lang['tarjeta2-cuerpo-titulo1'] ?></h5>
+											<h6><?php echo $lang['tarjeta2-cuerpo-descripcion1'] ?></h6>
 										</div>
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Guía de Marca</h5>
-											<h6>5 Slides</h6>
+											<h5><?php echo $lang['tarjeta2-cuerpo-titulo2'] ?></h5>
+											<h6><?php echo $lang['tarjeta2-cuerpo-descripcion2'] ?></h6>
 										</div>
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Tarjetas de presentación</h5>
-											<h6>x1000, 4x4, laminadas</h6>
+											<h5><?php echo $lang['tarjeta2-cuerpo-titulo3'] ?></h5>
+											<h6><?php echo $lang['tarjeta2-cuerpo-descripcion3'] ?></h6>
 										</div>
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Volantes</h5>
-											<h6>1/4 Carta, x1000, 4x4</h6>
+											<h5><?php echo $lang['tarjeta2-cuerpo-titulo4'] ?></h5>
+											<h6><?php echo $lang['tarjeta2-cuerpo-descripcion4'] ?></h6>
 										</div>
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Redes Sociales</h5>
-											<h6>2 o 3 cuentas</h6>
+											<h5><?php echo $lang['tarjeta2-cuerpo-titulo5'] ?></h5>
+											<h6><?php echo $lang['tarjeta2-cuerpo-descripcion5'] ?></h6>
 										</div>
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Firma de Email</h5>
-											<h6>Sencilla</h6>
+											<h5><?php echo $lang['tarjeta2-cuerpo-titulo6'] ?></h5>
+											<h6><?php echo $lang['tarjeta2-cuerpo-descripcion6'] ?></h6>
 										</div>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
 										<!--a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Express." target="_blank">CONTRATAR</a>
 										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Express." target="_blank">CONTRATAR</a-->
-										<h3>$8,400</h3>
-										<span>Ahorras $2,100</span>
+										<h3><?php echo $lang['tarjeta2-footer-precio2'] ?></h3>
+										<span><?php echo $lang['tarjeta2-footer-descuento2'] ?></span>
 									</div>
 								</div>
 					      	</div>
 					      	<div class="swiper-slide">
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
-										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Premium</h3>
+										<h3 class="s-paquetes__tarjeta-header--nombre color-primario"><?php echo $lang['titulo-tarjeta-tercera'] ?></h3>
 										<!--h4 class="s-paquetes__tarjeta-header--precio color-secundario">$500 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4-->
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Logotipo</h5>
-											<h6>5 Propuestas, 10 Revisiones</h6>
+											<h5><?php echo $lang['tarjeta3-cuerpo-titulo1'] ?></h5>
+											<h6><?php echo $lang['tarjeta3-cuerpo-descripcion1'] ?></h6>
 										</div>
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Guía de Marca</h5>
-											<h6>10 Slides</h6>
+											<h5><?php echo $lang['tarjeta3-cuerpo-titulo2'] ?></h5>
+											<h6><?php echo $lang['tarjeta3-cuerpo-descripcion2'] ?></h6>
 										</div>
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Presentación Empresarial</h5>
-											<h6>10 Slides</h6>
+											<h5><?php echo $lang['tarjeta3-cuerpo-titulo3'] ?></h5>
+											<h6><?php echo $lang['tarjeta3-cuerpo-descripcion3'] ?>10 Slides</h6>
 										</div>
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Tarjetas de presentación</h5>
-											<h6>x1000, 4x4, laminadas</h6>
+											<h5><?php echo $lang['tarjeta3-cuerpo-titulo4'] ?></h5>
+											<h6><?php echo $lang['tarjeta3-cuerpo-descripcion4'] ?></h6>
 										</div>
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Volantes</h5>
-											<h6>1/4 Carta, x1000, 4x4</h6>
+											<h5><?php echo $lang['tarjeta3-cuerpo-titulo5'] ?></h5>
+											<h6><?php echo $lang['tarjeta3-cuerpo-descripcion5'] ?></h6>
 										</div>
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Redes Sociales</h5>
-											<h6>4 o 5 cuentas</h6>
+											<h5><?php echo $lang['tarjeta3-cuerpo-titulo6'] ?></h5>
+											<h6><?php echo $lang['tarjeta3-cuerpo-descripcion6'] ?></h6>
 										</div>
 										<div class="s-paquetes__tarjeta-body--item">
-											<h5>Firma de Email</h5>
-											<h6>Avanzada</h6>
+											<h5><?php echo $lang['tarjeta3-cuerpo-titulo7'] ?></h5>
+											<h6><?php echo $lang['tarjeta3-cuerpo-descripcion7'] ?></h6>
 										</div>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
 										<!--a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Express." target="_blank">CONTRATAR</a>
 										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Express." target="_blank">CONTRATAR</a-->
-										<h3>$16,800</h3>
-										<span>Ahorras $7,200</span>
+										<h3><?php echo $lang['tarjeta3-footer-precio3'] ?></h3>
+										<span><?php echo $lang['tarjeta3-footer-descuento3'] ?></span>
 									</div>
 								</div>
 					      	</div>
@@ -270,7 +301,7 @@
 			<div class="fila">
 				<div class="column-12">
 					<div class="s-plan__head">
-						<h3 class="molecula-titulo-general color-secundario s-plan__titulo">Proceso de Trabajo</h3>
+						<h3 class="molecula-titulo-general color-secundario s-plan__titulo"><?php echo $lang['titulo-tercera-seccion'] ?></h3>
 					</div>
 				</div>
 			</div>
@@ -291,9 +322,9 @@
 						    	<img class="imagen imagen-centrada slider__imagen" src="images/inspiracion.svg"/>
 						    </div>
 					    	<div class="column-12 column-m-6">
-					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">1.- Inspiración</h3>
-					    		<p class="slider__descripcion color-secundarioA">En una sesión junto con el cliente, platicamos del proyecto y buscamos ejemplos para las propuestas. Investigamos a la competencia, selección de colores y tipografías y posibles isotipos.</p>
-					    		<p class="slider__descripcion color-secundarioA">Con la información recaudada, procedemos a crear las propuestas. Dependiendo de su complejidad, una propuesta puede tomar en completar de 2 a 4 horas.</p>
+					    		<h3 class="slider__titulo molecula-titulo-general color-secundario"><?php echo $lang['titulo1-tab1-tercera-seccion'] ?></h3>
+					    		<p class="slider__descripcion color-secundarioA"><?php echo $lang['descripcion1-tab1-tercera-seccion'] ?></p>
+					    		<p class="slider__descripcion color-secundarioA"><?php echo $lang['descripcion2-tab1-tercera-seccion'] ?></p>
 					    	</div>
 					    </div>
 					</div>
@@ -304,9 +335,9 @@
 						    	<img class="imagen imagen-centrada slider__imagen" src="images/revisiones.svg"/>
 						    </div>
 					    	<div class="column-12 column-m-6">
-					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">2.- Revisiones</h3>
-					    		<p class="slider__descripcion color-secundarioA">Mostramos la propuesta y comenzamos un ciclo de revisiones, en donde analizamos la propuesta y platicamos de los detalles para mejorarlo.</p>
-					    		<p class="slider__descripcion color-secundarioA">Dependiendo de la complejidad, un ciclo de revisiones puede tomar hasta 2 horas para mejorar la propuesta.</p>
+					    		<h3 class="slider__titulo molecula-titulo-general color-secundario"><?php echo $lang['titulo2-tab2-tercera-seccion'] ?></h3>
+					    		<p class="slider__descripcion color-secundarioA"><?php echo $lang['descripcion1-tab2-tercera-seccion'] ?></p>
+					    		<p class="slider__descripcion color-secundarioA"><?php echo $lang['descripcion2-tab2-tercera-seccion'] ?></p>
 					    	</div>
 					    </div>
 					</div>
@@ -317,17 +348,17 @@
 						    	<img class="imagen imagen-centrada slider__imagen" src="images/entrega.svg"/>
 						    </div>
 					    	<div class="column-12 column-m-6">
-					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">3.- Entrega</h3>
-					    		<p class="slider__descripcion color-secundarioA">Cuando obtenemos la autorización y completa satisfacción del cliente, en un archivo comprimido, entregamos el logotipo en su archivo original y editable en todos los formatos y con todos sus elementos.</p>
+					    		<h3 class="slider__titulo molecula-titulo-general color-secundario"><?php echo $lang['titulo3-tab3-tercera-seccion'] ?></h3>
+					    		<p class="slider__descripcion color-secundarioA"><?php echo $lang['descripcion1-tab3-tercera-seccion'] ?></p>
 						    	<ul class="slider__ul">
-						    		<li class="slider__li">Formatos</li>
+						    		<li class="slider__li"><?php echo $lang['lista1-tab3-tercera-seccion'] ?>Formatos</li>
 						    		<ul>
-						    			<li class="slider__li2">Editables (.ai, .psd)</li>
-						    			<li class="slider__li2">Presentación (.pdf)</li>
-						    			<li class="slider__li2">Para uso (.png, .svg, .eps, .jpg)</li>
+						    			<li class="slider__li2"><?php echo $lang['lista1-1-tab3-tercera-seccion'] ?></li>
+						    			<li class="slider__li2"><?php echo $lang['lista1-2-tab3-tercera-seccion'] ?></li>
+						    			<li class="slider__li2"><?php echo $lang['lista1-3-tab3-tercera-seccion'] ?></li>
 						    		</ul>
-						    		<li class="slider__li">Tipografías implementadas</li>
-						    		<li class="slider__li">Colores implementados</li>
+						    		<li class="slider__li"><?php echo $lang['lista2-tab3-tercera-seccion'] ?></li>
+						    		<li class="slider__li"><?php echo $lang['lista3-tab3-tercera-seccion'] ?></li>
 						    	</ul>
 					    	</div>
 					    </div>
@@ -341,8 +372,8 @@
 			<div class="fila">
 				<div class="column-12">
 					<div class="testimonios__head">
-						<h3 class="molecula-titulo-general color-secundario testimonios__titulo">Testimonios</h3>
-						<h4 class="molecula-subtitulos color-secundarioA testimonios__subtitulo">Nuestro Trabajo</h4>
+						<h3 class="molecula-titulo-general color-secundario testimonios__titulo"><?php echo $lang['titulo-cuarta-seccion'] ?></h3>
+						<h4 class="molecula-subtitulos color-secundarioA testimonios__subtitulo"><?php echo $lang['subtitulo-cuarta-seccion'] ?></h4>
 					</div>
 				</div>
 			</div>
@@ -355,9 +386,9 @@
 						      	<div class="testimonios-card">
 						      		<img class="imagen testimonios-card__imagen" src="images/tx-tint-logo.png">
 						      		<!--h3 class="testimonios-card__nombre-empresa">Nombre de la empresa</h3-->
-						      		<p class="testimonios-card__testimonio-texto">¡Me encanta mi logotipo! He recibido complementos y siempre estoy feliz en recomendarlos.</p>
-						      		<h4 class="testimonios-card__nombre">Mitchel Govea</h4>
-						      		<h5 class="testimonios-card__puesto">Fundador</h5>
+						      		<p class="testimonios-card__testimonio-texto"><?php echo $lang['descripcion1-testimonio'] ?></p>
+						      		<h4 class="testimonios-card__nombre"><?php echo $lang['nombre1-testimonio'] ?>Mitchel Govea</h4>
+						      		<h5 class="testimonios-card__puesto"><?php echo $lang['puesto1-testimonio'] ?>Fundador</h5>
 						      	</div>
 					      	</div>
 					      	<div class="swiper-slide">
@@ -440,6 +471,9 @@
 				<div class="column-12">
 					<img class="imagen s-footer__imagen" src="https://itedup.com/wp-content/uploads/itedup-it.svg">
 					<p class="s-footer__copy">2021 - <a class="s-footer__copy--link" href="https://itedup.com/legal/" target="_blank">Aviso Legal</a></p>
+					<div style="margin-top:20px;">
+						<a style="text-decoration: none; color: #555;" href="index2.php?lang=es"> <?php echo $lang['es'] ?> </a> | <a style="text-decoration: none; color: #555;" href="index2.php?lang=en"> <?php echo $lang['en'] ?></a>
+					</div>
 				</div>
 			</div>
 		</div>
