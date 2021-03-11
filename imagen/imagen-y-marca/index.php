@@ -77,7 +77,7 @@
   background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0.5) 100%);
   z-index: -1;
 }
-.loaderIT 
+/*.loaderIT 
 {
     position: fixed;
     left: 0px;
@@ -94,29 +94,35 @@
 }
 .loaderIT__image{
 	position: absolute;
-	top: 80px;
+	top: 40%;
 }
 .loaderIT__image img{
-	width: 100px;
+	width: 80px;
 	height: auto;
 }
 .loaderIT__texto{
 	text-align: center;
-	position: absolute;
-	bottom: 120px;
-}
+    position: absolute;
+    bottom: 10%;
+    font-size: 16px;
+    color: #e34;
+    font-weight: 300!important;
+}*/
 </style>
 
 </head>
 <body>
-	<div class="loaderIT">
+	<!--div class="loaderIT">
 		<div class="loaderIT__image">
 			<img src="https://itedup.com/wp-content/uploads/2018/11/itedup-it.png" alt="Loading itedup">
 		</div>
 		<div class="loaderIT__texto">
-			<p>ITEDUP AGENCIA DIGITAL</p>
+			<p>BRANDING, WEB/APPS, MARKETING</p>
 		</div>
-	</div>
+	</div-->
+	<?php
+		require('../../loader/loader.php');
+	?>
 	<section class="headerPage background-image-parallax" style="background-image: url(images/fondo-clear.jpg);">
 		<div class="contenido-amplio">
 			<div class="fila">

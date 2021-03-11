@@ -10,13 +10,13 @@
 	<link rel="shortcut icon" href="https://itedup.com/wp-content/uploads/2018/11/itedup-it.png" />
 
 	<!-- SEO página Home -->
-	<title>ITedup | Logotipo Profesional</title>
+	<title>ITedup | Sitios Web Informativos</title>
 	<meta name="description" content="Deja el diseño de tu logo en manos de los profesionales." /><!-- descripción de la página-->
 	<meta name="keywords" content="logotipo profesional, logo profesional, logo, logotipo, diseño logo, diseño logotipo, diseño de logo, diseño de logotipo, diseño marca, diseño de marca, diseño gráfico" /><!-- palabras clave, separar cada keyword con una coma(,).-->
 	<meta name="author" content="ITedup" />
 
 	<!-- Imagen destacada -->
-	<meta property="og:image" content="https://servicios.itedup.com.mx/imagen/logotipos-profesionales/images/logotipos-profesionales-destacada.jpg"><!-- dentro de content escribir la ruta donde se encuentra la imagen destacada. -->
+	<meta property="og:image" content=""><!-- dentro de content escribir la ruta donde se encuentra la imagen destacada. -->
 	<meta property="og:image:type" content="image/png">
 	<meta property="og:image:width" content="300">
 	<meta property="og:image:height" content="200">
@@ -26,7 +26,7 @@
 
 	<!-- Analiticos -->
 	<!-- Hotjar Tracking Code for https://servicios.itedup.com.mx/imagen/logotipos-profesionales -->
-	<script>
+	<!--script>
 	    (function(h,o,t,j,a,r){
 	        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
 	        h._hjSettings={hjid:2214570,hjsv:6};
@@ -35,7 +35,7 @@
 	        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
 	        a.appendChild(r);
 	    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-	</script>
+	</script-->
 
 	<!--Swiper js-->
 	<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css">
@@ -77,6 +77,18 @@
   background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0.5) 100%);
   z-index: -1;
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
 	</style>
 </head>
 <body>
@@ -90,8 +102,8 @@
 					<div class="headerPage__contenido">
 						<img class="imagen imagen-centrada headerPage__contenido--logo" src="https://itedup.com/wp-content/uploads/itedup-logo-animated.gif">
 						<img class="imagen imagen-centrada headerPage__contenido--imagen" src="images/logotipos-profesionales-home.svg">
-						<h1 class="molecula-titulo-principal color-secundario headerPage__contenido--titulo">Logotipos Profesionales</h1>
-						<h2 class="molecula-subtitulo color-secundarioA headerPage__contenido--subtitulo">Deja el diseño de tu logo en manos de los profesionales</h2>
+						<h1 class="molecula-titulo-principal color-secundario headerPage__contenido--titulo">Sitios Web Informativos</h1>
+						<h2 class="molecula-subtitulo color-secundarioA headerPage__contenido--subtitulo">Digitaliza tu negocio con un sitio web y comienza a crear presencia en el internet</h2>
 						<a class="boton background-primario color-blanco headerPage__contenido--boton" href="#paquetes">VER PAQUETES</a>
 					</div>
 				</div>
@@ -114,18 +126,36 @@
 					      	<div class="swiper-slide">
 						      	<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
-										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Express</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$500 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">One-Page Básico</h3>
+										<span class="s-paquetes__tarjeta-header--descuento color-secundario">$6,000</span>
+										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$3,000</h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
-											<li>1 Propuesta</li>
-								      		<li>2 Revisiones</li>
+											<li>5 Secciones/Subsecciones</li>
 										</ul>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
-										<a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Express." target="_blank">CONTRATAR</a>
-										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Express." target="_blank">CONTRATAR</a>
+										<a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20One-Page%20Básico." target="_blank">CONTRATAR</a>
+										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20One-Page%20Básico." target="_blank">CONTRATAR</a>
+									</div>
+								</div>
+					      	</div>
+					      	<div class="swiper-slide">
+					      		<div class="tarjeta s-paquetes__tarjeta">
+									<div class="tarjeta-header s-paquetes__tarjeta-header">
+										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">One-Page Avanzado</h3>
+										<span class="s-paquetes__tarjeta-header--descuento color-secundario">$10,000</span>
+										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$6,000</h4>
+									</div>
+									<div class="tarjeta-body s-paquetes__tarjeta-body">
+										<ul class="s-paquetes__tarjeta-lista">
+											<li>10 Secciones/Subsecciones</li>
+										</ul>
+									</div>
+									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
+										<a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20One-Page%20Avanzado." target="_blank">CONTRATAR</a>
+										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20One-Page%20Avanzado." target="_blank">CONTRATAR</a>
 									</div>
 								</div>
 					      	</div>
@@ -133,17 +163,18 @@
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
 										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Básico</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$1,000 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<span class="s-paquetes__tarjeta-header--descuento color-secundario">$15,000</span>
+										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$10,000</h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
-											<li>3 Propuestas</li>
-	      									<li>6 Revisiones</li>
+											<li>3 Páginas <br><span style="font-size: 12px; font-weight: 300;">(1 de Impacto, 2 Páginas)</span></li>
+					      					<li>ó hasta 15 secciones</li>
 										</ul>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
-										<a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Básico." target="_blank">CONTRATAR</a>
-										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Básico." target="_blank">CONTRATAR</a>
+										<a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Sitio%20Web%20Básico." target="_blank">CONTRATAR</a>
+										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Sitio%20Web%20Básico." target="_blank">CONTRATAR</a>
 									</div>
 								</div>
 					      	</div>
@@ -151,17 +182,18 @@
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
 										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Avanzado</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$1,500 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<span class="s-paquetes__tarjeta-header--descuento color-secundario">$21,000</span>
+										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$15,000</h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
-											<li>5 Propuestas</li>
-					      					<li>10 Revisiones</li>
+											<li>10 Páginas <br><span style="font-size: 12px; font-weight: 300;">(3 de Impacto, 7 Páginas)</span></li>
+					      					<li>ó hasta 50 secciones</li>
 										</ul>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
-										<a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Avanzado." target="_blank">CONTRATAR</a>
-										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Avanzado." target="_blank">CONTRATAR</a>
+										<a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Sitio%20Web%20Avanzado." target="_blank">CONTRATAR</a>
+										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Sitio%20Web%20Avanzado." target="_blank">CONTRATAR</a>
 									</div>
 								</div>
 					      	</div>
@@ -169,38 +201,37 @@
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
 										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Premium</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$3,000 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<span class="s-paquetes__tarjeta-header--descuento color-secundario">$28,000</span>
+										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$20,000</h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
-											<li>Estudio de Marca</li>
-					      					<li>3 Propuestas</li>
-					      					<li>6 Revisiones</li>
+											<li>30 Páginas <br><span style="font-size: 12px; font-weight: 300;">(5 de Impacto, 25 Páginas)</span></li>
+					      					<li>ó hasta 100 secciones</li>
 										</ul>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
-										<a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Premium." target="_blank">CONTRATAR</a>
-										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Premium." target="_blank">CONTRATAR</a>
+										<a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Sitio%20Web%20Premium." target="_blank">CONTRATAR</a>
+										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Sitio%20Web%20Premium." target="_blank">CONTRATAR</a>
 									</div>
 								</div>
 					      	</div>
 					      	<div class="swiper-slide">
 					      		<div class="tarjeta s-paquetes__tarjeta">
 									<div class="tarjeta-header s-paquetes__tarjeta-header">
-										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Enterprise</h3>
-										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$8,000 <span class="s-paquetes__tarjeta-header--moneda">MXN</span> </h4>
+										<h3 class="s-paquetes__tarjeta-header--nombre color-primario">Corporativo</h3>
+										<span class="s-paquetes__tarjeta-header--descuento color-secundario">$40,000</span>
+										<h4 class="s-paquetes__tarjeta-header--precio color-secundario">$30,000</h4>
 									</div>
 									<div class="tarjeta-body s-paquetes__tarjeta-body">
 										<ul class="s-paquetes__tarjeta-lista">
-											<li>Estudio de Marca</li>
-					      					<li>5 Propuestas</li>
-					      					<li>15 Revisiones</li>
-					      					<li>Brandbook Básico</li>
+											<li>50 Páginas <br><span style="font-size: 12px; font-weight: 300;">(10 de Impacto, 40 Páginas)</span></li>
+					      					<li>ó hasta 150 secciones</li>
 										</ul>
 									</div>
 									<div class="tarjeta-footer s-paquetes__tarjeta-footer">
-										<a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Enterprise." target="_blank">CONTRATAR</a>
-										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Logotipo%20Enterprise." target="_blank">CONTRATAR</a>
+										<a class="boton background-primario color-blanco b-w-d" href="https://web.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Sitio%20Web%20Corportaivo." target="_blank">CONTRATAR</a>
+										<a class="boton background-primario color-blanco b-w-m" href="https://api.whatsapp.com/send?phone=5215572000685&text=Hola%E2%80%9A%20estoy%20interesado%20en%20el%20paquete%20Sitio%20Web%20Corporativo." target="_blank">CONTRATAR</a>
 									</div>
 								</div>
 					      	</div>
@@ -208,6 +239,67 @@
 					    <!-- Add Pagination -->
     					<div class="swiper-pagination swiper-pagination-paquetes"></div>
 				  	</div>
+				</div>
+			</div>
+		</div>
+		<div class="contenido" style="margin-top: 50px;">
+			<div class="fila">
+				<div class="column-12 column-m-6">
+					<div class="incluye">
+						<h3 class="color-secundarioA" style="font-size: 1.3rem; font-weight: 600;">Incluido</h3>
+						<p style="margin-bottom: 10px;">Servidor compartido con costo de $490 MXN anual</p>
+						<ul>
+							<li>Dominio Gratuito</li>
+							<li>8GB de espacio en disco solido (SSD)</li>
+							<li>Certificado SSL básico</li>
+							<li>100 cuentas de correos electrónicos empresariales</li>
+							<li>Soporte técnico asistido por correo electrónico</li>
+						</ul>
+					</div>
+				</div>
+				<div class="column-12 column-m-6">
+					<div style="text-align: left;">
+						<h3 class="color-secundarioA" style="font-size: 1.3rem; font-weight: 600;">Extras</h3>
+						<p style="margin-bottom: 10px;">Complementa tu sitio con elementos adicionales</p>
+					</div>
+					<div style="overflow-x: auto;">
+						<table>
+							<tr>
+								<th colspan="2">Páginas, secciones o subsecciones</th>
+							</tr>
+							<tr valign="top">
+								<td>6 a 9</td>
+								<td>$500 c/u</td>
+							</tr>
+							<tr>
+								<td>10 a 49</td>
+								<td>$450 c/u</td>
+							</tr>
+							<tr>
+								<td>50 a 99</td>
+								<td>$400 c/u</td>
+							</tr>
+							<tr>
+								<td>100+</td>
+								<td>350 c/u</td>
+							</tr>
+						</table>
+						<div style="overflow-x: auto;">
+						<table cellspacing="10" cellpadding="10">
+							<tr>
+								<th colspan="2">Hospedaje</th>
+							</tr>
+							<tr valign="top">
+								<td>Servicio Compartido<br>16GB SSD<br>Dominio Gratuito<br>Certificado SSL<br>Cuentas de correo electrónico Ilimitadas<br>Soporte por chat o WhatsApp</td>
+								<td>VPS, dedicado o nube<br>10 a 30 GB SSD<br>Dominio Gratuito<br>Certificado SSL<br>Correo electrónico empresarial<br>Soporte por chat o WhatsApp</td>
+							</tr>
+							<tr valign="top">
+								<td>$790 anual</td>
+								<td><span>Desde</span><br>$1,990 anual</td>
+							</tr>
+						</table>
+					</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -358,7 +450,7 @@
           spaceBetween: 10,
         },
         1024: {
-          slidesPerView: 5,
+          slidesPerView: 4,
           spaceBetween: 10,
         },
       }
