@@ -2,7 +2,7 @@
 * Columnas
 ********************/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
-[class*=column-] {
+[class*='column-'] {
   float: left;
   padding: 0.8em;
   width: 100%;
@@ -11,205 +11,167 @@
 
 @media only screen and (min-width: 576px) {
   .column-1 {
-    width: 8.3333333333%;
+    width: 8.33333%;
   }
-
   .column-2 {
-    width: 16.6666666667%;
+    width: 16.66667%;
   }
-
   .column-3 {
     width: 25%;
   }
-
   .column-4 {
-    width: 33.3333333333%;
+    width: 33.33333%;
   }
-
   .column-5 {
-    width: 41.6666666667%;
+    width: 41.66667%;
   }
-
   .column-6 {
     width: 50%;
   }
-
   .column-7 {
-    width: 58.3333333333%;
+    width: 58.33333%;
   }
-
   .column-8 {
-    width: 66.6666666667%;
+    width: 66.66667%;
   }
-
   .column-9 {
     width: 75%;
   }
-
   .column-10 {
-    width: 83.3333333333%;
+    width: 83.33333%;
   }
-
   .column-11 {
-    width: 91.6666666667%;
+    width: 91.66667%;
   }
-
   .column-12 {
     width: 100%;
   }
 }
+
 @media only screen and (min-width: 768px) {
   .column-m-1 {
-    width: 8.3333333333%;
+    width: 8.33333%;
   }
-
   .column-m-2 {
-    width: 16.6666666667%;
+    width: 16.66667%;
   }
-
   .column-m-3 {
     width: 25%;
   }
-
   .column-m-4 {
-    width: 33.3333333333%;
+    width: 33.33333%;
   }
-
   .column-m-5 {
-    width: 41.6666666667%;
+    width: 41.66667%;
   }
-
   .column-m-6 {
     width: 50%;
   }
-
   .column-m-7 {
-    width: 58.3333333333%;
+    width: 58.33333%;
   }
-
   .column-m-8 {
-    width: 66.6666666667%;
+    width: 66.66667%;
   }
-
   .column-m-9 {
     width: 75%;
   }
-
   .column-m-10 {
-    width: 83.3333333333%;
+    width: 83.33333%;
   }
-
   .column-m-11 {
-    width: 91.6666666667%;
+    width: 91.66667%;
   }
-
   .column-m-12 {
     width: 100%;
   }
 }
+
 @media only screen and (min-width: 992px) {
   .column-l-1 {
-    width: 8.3333333333%;
+    width: 8.33333%;
   }
-
   .column-l-2 {
-    width: 16.6666666667%;
+    width: 16.66667%;
   }
-
   .column-l-3 {
     width: 25%;
   }
-
   .column-l-4 {
-    width: 33.3333333333%;
+    width: 33.33333%;
   }
-
   .column-l-5 {
-    width: 41.6666666667%;
+    width: 41.66667%;
   }
-
   .column-l-6 {
     width: 50%;
   }
-
   .column-l-7 {
-    width: 58.3333333333%;
+    width: 58.33333%;
   }
-
   .column-l-8 {
-    width: 66.6666666667%;
+    width: 66.66667%;
   }
-
   .column-l-9 {
     width: 75%;
   }
-
   .column-l-10 {
-    width: 83.3333333333%;
+    width: 83.33333%;
   }
-
   .column-l-11 {
-    width: 91.6666666667%;
+    width: 91.66667%;
   }
-
   .column-l-12 {
     width: 100%;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .column-xl-1 {
-    width: 8.3333333333%;
+    width: 8.33333%;
   }
-
   .column-xl-2 {
-    width: 16.6666666667%;
+    width: 16.66667%;
   }
-
   .column-xl-3 {
     width: 25%;
   }
-
   .column-xl-4 {
-    width: 33.3333333333%;
+    width: 33.33333%;
   }
-
   .column-xl-5 {
-    width: 41.6666666667%;
+    width: 41.66667%;
   }
-
   .column-xl-6 {
     width: 50%;
   }
-
   .column-xl-7 {
-    width: 58.3333333333%;
+    width: 58.33333%;
   }
-
   .column-xl-8 {
-    width: 66.6666666667%;
+    width: 66.66667%;
   }
-
   .column-xl-9 {
     width: 75%;
   }
-
   .column-xl-10 {
-    width: 83.3333333333%;
+    width: 83.33333%;
   }
-
   .column-xl-11 {
-    width: 91.6666666667%;
+    width: 91.66667%;
   }
-
   .column-xl-12 {
     width: 100%;
   }
 }
+
 /********************
 * Fila
 ********************/
 .fila {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
@@ -226,21 +188,25 @@
   margin-left: auto;
   position: relative;
 }
+
 @media (min-width: 576px) {
   .contenido {
     max-width: 540px;
   }
 }
+
 @media (min-width: 768px) {
   .contenido {
     max-width: 720px;
   }
 }
+
 @media (min-width: 992px) {
   .contenido {
     max-width: 960px;
   }
 }
+
 @media (min-width: 1200px) {
   .contenido {
     max-width: 1140px;
@@ -327,6 +293,7 @@ variables
   text-decoration: none;
   display: inline-block;
 }
+
 .boton:hover {
   background-color: #cc3344;
 }
@@ -368,7 +335,7 @@ variables
   font-weight: 400;
 }
 
-.molecula-titulo-general, .molecula-titulo-principal {
+.molecula-titulo-principal, .molecula-titulo-general {
   font-weight: 700;
 }
 
@@ -381,7 +348,10 @@ variables
 ********************/
 .tarjeta {
   position: relative;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
@@ -399,6 +369,7 @@ variables
 }
 
 .tarjeta-body {
+  -webkit-box-flex: 1;
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
@@ -411,13 +382,14 @@ variables
 }
 
 /********************
-* Sliders
+* Tabs
 ********************/
 .slider-style1 {
   position: relative;
   width: 100%;
   height: 300px;
 }
+
 .slider-style1 li {
   padding: 10px;
   margin: 0;
@@ -428,18 +400,21 @@ variables
   opacity: 0;
   width: inherit;
   height: inherit;
-  transition: opacity 0.5s;
+  transition: opacity .5s;
   background: #fff;
 }
+
 .slider-style1 li img {
   /*width: 100%;
-  		height: 300px;*/
+	  		height: 300px;*/
   object-fit: cover;
 }
+
 .slider-style1 li:first-child {
   opacity: 1;
   /*Mostramos el primer <li>*/
 }
+
 .slider-style1 li:target {
   opacity: 1;
   /*Mostramos el <li> del enlace que pulsemos*/
@@ -449,11 +424,13 @@ variables
   text-align: center;
   margin: 30px;
 }
+
 .slide-indicadores-style1 li {
   display: inline-block;
   text-align: center;
   margin-right: 50px;
 }
+
 .slide-indicadores-style1 li a {
   display: flex;
   align-items: center;
@@ -470,13 +447,14 @@ variables
 }
 
 /*******************************************/
-/*ESTILO 2*/
-.tab {
+/*ESTILO 1*/
+.tab-estilo1 {
   overflow: hidden;
   display: flex;
   justify-content: center;
 }
-.tab button {
+
+.tab-estilo1 button {
   /* Style the buttons that are used to open the tab content */
   background-color: #ffffff;
   color: #222;
@@ -494,23 +472,84 @@ variables
   margin-left: 20px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-.tab button:hover {
+
+.tab-estilo1 button:hover {
   /*Change background color of buttons on hover */
   background-color: #ee3344;
   color: #ffffff;
   border: 1px solid #ee3344;
 }
-.tab button.active {
+
+.tab-estilo1 button.active {
   /* Create an active/current tablink class */
   background-color: #ee3344;
   border: 1px solid #ee3344;
   color: #fff;
 }
 
-.tabcontent {
+.tabcontent-estilo1 {
   display: none;
   padding: 6px 12px;
   margin-top: 30px;
+}
+
+/*******************************************/
+/*ESTILO 2*/
+.tab-estilo2 {
+  overflow: hidden;
+  border: none;
+  background-color: #ee3344;
+  color: #222;
+}
+
+.tab-estilo2 button {
+  background-color: #ee3344;
+  color: #fff;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 22px;
+}
+
+.tab-estilo2 buttonhover {
+  backgrpund-color: #cc3344;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.tab-estilo2 button.active {
+  background-color: #cc3344;
+  border-color: #fff;
+  border: 1px solid #fff;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.tabcontent-estilo2 {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #faa;
+  border-top: none;
+  text-align: left;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.table th, .table td {
+  padding: .75rem;
+  vertical-align: top;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
 }
 
 /********************
@@ -525,7 +564,7 @@ variables
   /*padding: 0;*/
   box-sizing: border-box;
   font-size: 1em;
-  font-weight: 400;
+  /*font-weight: 400;*/
 }
 
 html {

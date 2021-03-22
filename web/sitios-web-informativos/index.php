@@ -81,6 +81,9 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
+/*table, td, th {
+  border: 1px solid #faa;
+}
 th, td {
   text-align: left;
   padding: 8px;
@@ -88,7 +91,7 @@ th, td {
 
 tr:nth-child(even) {
 	background-color: #f2f2f2;
-}
+}*/
 	</style>
 </head>
 <body>
@@ -101,7 +104,7 @@ tr:nth-child(even) {
 				<div class="column-12 column-m-12" style="padding-right: 0; padding-left: 0;">
 					<div class="headerPage__contenido">
 						<img class="imagen imagen-centrada headerPage__contenido--logo" src="https://itedup.com/wp-content/uploads/itedup-logo-animated.gif">
-						<img class="imagen imagen-centrada headerPage__contenido--imagen" src="images/logotipos-profesionales-home.svg">
+						<img class="imagen imagen-centrada headerPage__contenido--imagen" src="images/web informativo.svg">
 						<h1 class="molecula-titulo-principal color-secundario headerPage__contenido--titulo">Sitios Web Informativos</h1>
 						<h2 class="molecula-subtitulo color-secundarioA headerPage__contenido--subtitulo">Digitaliza tu negocio con un sitio web y comienza a crear presencia en el internet</h2>
 						<a class="boton background-primario color-blanco headerPage__contenido--boton" href="#paquetes">VER PAQUETES</a>
@@ -245,60 +248,103 @@ tr:nth-child(even) {
 		<div class="contenido" style="margin-top: 50px;">
 			<div class="fila">
 				<div class="column-12 column-m-6">
-					<div class="incluye">
-						<h3 class="color-secundarioA" style="font-size: 1.3rem; font-weight: 600;">Incluido</h3>
-						<p style="margin-bottom: 10px;">Servidor compartido con costo de $490 MXN anual</p>
-						<ul>
-							<li>Dominio Gratuito</li>
-							<li>8GB de espacio en disco solido (SSD)</li>
-							<li>Certificado SSL básico</li>
-							<li>100 cuentas de correos electrónicos empresariales</li>
-							<li>Soporte técnico asistido por correo electrónico</li>
-						</ul>
-					</div>
+					
 				</div>
 				<div class="column-12 column-m-6">
-					<div style="text-align: left;">
-						<h3 class="color-secundarioA" style="font-size: 1.3rem; font-weight: 600;">Extras</h3>
-						<p style="margin-bottom: 10px;">Complementa tu sitio con elementos adicionales</p>
+					
+				</div>
+			</div>
+		</div>
+		<div class="contenido">
+			<div class="fila">
+				<div class="column-12">
+					<div class="tab-estilo2">
+						<button class="tablinks2" onclick="openTab2(event, 'Incluido')" id="defaultOpen2">Incluido</button>
+  						<button class="tablinks2" onclick="openTab2(event, 'Extras')">Extras</button>
 					</div>
-					<div style="overflow-x: auto;">
-						<table>
-							<tr>
-								<th colspan="2">Páginas, secciones o subsecciones</th>
-							</tr>
-							<tr valign="top">
-								<td>6 a 9</td>
-								<td>$500 c/u</td>
-							</tr>
-							<tr>
-								<td>10 a 49</td>
-								<td>$450 c/u</td>
-							</tr>
-							<tr>
-								<td>50 a 99</td>
-								<td>$400 c/u</td>
-							</tr>
-							<tr>
-								<td>100+</td>
-								<td>350 c/u</td>
-							</tr>
-						</table>
+					<div id="Incluido" class="tabcontent-estilo2">
+					  	<div class="incluye">
+							<p style="margin: 20px 0; font-size: 20px; font-weight: 500;">Servidor compartido con costo de <strong>$490 MXN</strong> anual</p>
+							<ul>
+								<li>Dominio Gratuito</li>
+								<li>8GB de espacio en disco solido (SSD)</li>
+								<li>Certificado SSL básico</li>
+								<li>100 cuentas de correos electrónicos empresariales</li>
+								<li>Soporte técnico asistido por correo electrónico</li>
+							</ul>
+						</div>
+					</div>
+					<div id="Extras" class="tabcontent-estilo2">
+					  	<div style="text-align: left;">
+							<p style="margin: 20px 0; font-size: 20px; font-weight: 500; text-align: center;">Complementa tu sitio con elementos adicionales</p>
+						</div>
 						<div style="overflow-x: auto;">
-						<table cellspacing="10" cellpadding="10">
-							<tr>
-								<th colspan="2">Hospedaje</th>
-							</tr>
-							<tr valign="top">
-								<td>Servicio Compartido<br>16GB SSD<br>Dominio Gratuito<br>Certificado SSL<br>Cuentas de correo electrónico Ilimitadas<br>Soporte por chat o WhatsApp</td>
-								<td>VPS, dedicado o nube<br>10 a 30 GB SSD<br>Dominio Gratuito<br>Certificado SSL<br>Correo electrónico empresarial<br>Soporte por chat o WhatsApp</td>
-							</tr>
-							<tr valign="top">
-								<td>$790 anual</td>
-								<td><span>Desde</span><br>$1,990 anual</td>
-							</tr>
-						</table>
-					</div>
+							<table class="table" style="text-align: center;">
+								<thead>
+								<tr>
+									<th style="font-size: 18px; font-weight: 600; text-align: center;" colspan="2">Páginas, secciones o subsecciones</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>6 a 9</td>
+									<td>$500 c/u</td>
+								</tr>
+								<tr>
+									<td>10 a 49</td>
+									<td>$450 c/u</td>
+								</tr>
+								<tr>
+									<td>50 a 99</td>
+									<td>$400 c/u</td>
+								</tr>
+								<tr>
+									<td>100+</td>
+									<td>$350 c/u</td>
+								</tr>
+								</tbody>
+							</table>
+						</div> 
+						<div style="overflow-x: auto; margin-top: 15px;">
+							<table style="text-align: center;">
+								<thead style="border-bottom: 1px solid #dee2e6;">
+								<tr>
+									<th style="font-size: 18px; font-weight: 600; text-align: center;" colspan="2">Hospedaje</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td>Servicio Compartido</td>
+									<td>VPS, dedicado o nube</td>
+								</tr>
+								<tr>
+									<td>16GB SSD</td>
+									<td>10 a 30 GB SSD</td>
+								</tr>	
+								<tr>
+									<td>Dominio Gratuito</td>
+									<td>Dominio Gratuito</td>
+								</tr>
+								<tr>
+									<td>Certificado SSL</td>
+									<td>Certificado SSL</td>
+								</tr>
+								<tr>
+									<td>Cuentas de correo electrónico Ilimitadas</td>
+									<td>Correo electrónico empresarial</td>
+								</tr>
+								<tr>
+									<td>Soporte por chat o WhatsApp</td>
+									<td>Soporte por chat o WhatsApp</td>
+								</tr>
+									
+								<tr style="border-top: 1px solid #dee2e6;">
+									<td style="font-size: 25px; font-weight: 600;">$790 anual</td>
+									<td style="font-size: 25px; font-weight: 600;"><span style="font-size: 16px; font-weight: 300;">Desde</span><br>$1,990 anual</td>
+								</tr>
+								</tbody>
+							</table>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -309,64 +355,96 @@ tr:nth-child(even) {
 			<div class="fila">
 				<div class="column-12">
 					<div class="s-plan__head">
-						<h3 class="molecula-titulo-general color-secundario s-plan__titulo">Proceso de Trabajo</h3>
+						<h3 class="molecula-titulo-general color-secundario s-plan__titulo">Metodología de Desarrollo</h3>
 					</div>
 				</div>
 			</div>
 			<div class="fila">
 				<div class="column-12">
 					<!-- Tab links -->
-					<div class="tab">
-						<button class="tablinks" onclick="openCity(event, 'tabuno')" id="defaultOpen">1</button>
-  						<button class="tablinks" onclick="openCity(event, 'tabdos')">2</button>
-  						<button class="tablinks" onclick="openCity(event, 'tabtres')">3</button>
+					<div class="tab-estilo1">
+						<button class="tablinks1" onclick="openTab1(event, 'tabuno')" id="defaultOpen">1</button>
+  						<button class="tablinks1" onclick="openTab1(event, 'tabdos')">2</button>
+  						<button class="tablinks1" onclick="openTab1(event, 'tabtres')">3</button>
+  						<button class="tablinks1" onclick="openTab1(event, 'tabcuatro')">4</button>
 					</div>
 					<hr class="linea-horizontal">
 
 					<!-- Tab content -->
-					<div id="tabuno" class="tabcontent">
+					<div id="tabuno" class="tabcontent-estilo1">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
-						    	<img class="imagen imagen-centrada slider__imagen" src="images/inspiracion.svg"/>
+						    	<img class="imagen imagen-centrada slider__imagen" src="images/descubrir_1.svg"/>
 						    </div>
 					    	<div class="column-12 column-m-6">
-					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">1.- Inspiración</h3>
-					    		<p class="slider__descripcion color-secundarioA">En una sesión junto con el cliente, platicamos del proyecto y buscamos ejemplos para las propuestas. Investigamos a la competencia, selección de colores y tipografías y posibles isotipos.</p>
-					    		<p class="slider__descripcion color-secundarioA">Con la información recaudada, procedemos a crear las propuestas. Dependiendo de su complejidad, una propuesta puede tomar en completar de 2 a 4 horas.</p>
+					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">1.- Descubrir</h3>
+					    		<p class="slider__descripcion color-secundarioA">En una o más sesiones junto con el cliente, platicamos del proyecto y de nuestro objetivo, buscamos ejemplos y los elementos y herramientas a implementar, establecemos un plan de trabajo.</p>
+					    		<p>Las tareas a realizar son:</p>
+					    		<ul class="slider__ul">
+						    		<li class="slider__li">Videollamadas con el cliente</li>
+						    		<li class="slider__li">Análisis de usuario</li>
+						    		<li class="slider__li">Benchmark de la competencia</li>
+						    		<li class="slider__li">Levantamiento de requerimientos</li>
+						    		<li class="slider__li">Documento Gantt del proyecto</li>
+						    	</ul>
 					    	</div>
 					    </div>
 					</div>
 
-					<div id="tabdos" class="tabcontent">
+					<div id="tabdos" class="tabcontent-estilo1">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
-						    	<img class="imagen imagen-centrada slider__imagen" src="images/revisiones.svg"/>
+						    	<img class="imagen imagen-centrada slider__imagen" src="images/diseñar_1.svg"/>
 						    </div>
 					    	<div class="column-12 column-m-6">
-					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">2.- Revisiones</h3>
-					    		<p class="slider__descripcion color-secundarioA">Mostramos la propuesta y comenzamos un ciclo de revisiones, en donde analizamos la propuesta y platicamos de los detalles para mejorarlo.</p>
-					    		<p class="slider__descripcion color-secundarioA">Dependiendo de la complejidad, un ciclo de revisiones puede tomar hasta 2 horas para mejorar la propuesta.</p>
+					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">2.- Diseñar</h3>
+					    		<p class="slider__descripcion color-secundarioA">Con la información recaudada, trabajamos en el bocetaje y en el diseño y compartimos con el cliente un enlace de visualización.</p>
+					    		<p>Las tareas a realizar son:</p>
+					    		<ul class="slider__ul">
+						    		<li class="slider__li">Casos de uso</li>
+						    		<li class="slider__li">Bocetaje</li>
+						    		<li class="slider__li">Diseño</li>
+						    		<li class="slider__li">Revisiones</li>
+						    	</ul>
 					    	</div>
 					    </div>
 					</div>
 
-					<div id="tabtres" class="tabcontent">
+					<div id="tabtres" class="tabcontent-estilo1">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
-						    	<img class="imagen imagen-centrada slider__imagen" src="images/entrega.svg"/>
+						    	<img class="imagen imagen-centrada slider__imagen" src="images/desarrollar_1.svg"/>
 						    </div>
 					    	<div class="column-12 column-m-6">
-					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">3.- Entrega</h3>
-					    		<p class="slider__descripcion color-secundarioA">Cuando obtenemos la autorización y completa satisfacción del cliente, en un archivo comprimido, entregamos el logotipo en su archivo original y editable en todos los formatos y con todos sus elementos.</p>
-						    	<ul class="slider__ul">
-						    		<li class="slider__li">Formatos</li>
-						    		<ul>
-						    			<li class="slider__li2">Editables (.ai, .psd)</li>
-						    			<li class="slider__li2">Presentación (.pdf)</li>
-						    			<li class="slider__li2">Para uso (.png, .svg, .eps, .jpg)</li>
-						    		</ul>
-						    		<li class="slider__li">Tipografías implementadas</li>
-						    		<li class="slider__li">Colores implementados</li>
+					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">3.- Desarrollar</h3>
+					    		<p class="slider__descripcion color-secundarioA">Una vez autorizado el diseño de nuestro sitio, creamos el ambiente de desarrollo (hospedaje, dominio, bases de datos) adecuado para nuestro proyecto y comenzamos a programar.</p>
+						    	<p>Las tareas a realizar son:</p>
+					    		<ul class="slider__ul">
+						    		<li class="slider__li">Ambiente de desarrollo</li>
+						    		<li class="slider__li">Programación</li>
+						    		<li class="slider__li">Integraciones</li>
+						    		<li class="slider__li">Revisiones</li>
+						    		<li class="slider__li">Pruebas de uso</li>
+						    		<li class="slider__li">Control de calidad</li>
+						    	</ul>
+					    	</div>
+					    </div>
+					</div>
+
+					<div id="tabcuatro" class="tabcontent-estilo1">
+  						<div class="fila" style="align-items: center;">
+						    <div class="column-12 column-m-6">
+						    	<img class="imagen imagen-centrada slider__imagen" src="images/entrega_1.svg"/>
+						    </div>
+					    	<div class="column-12 column-m-6">
+					    		<h3 class="slider__titulo molecula-titulo-general color-secundario">4.- Entrega</h3>
+					    		<p class="slider__descripcion color-secundarioA">Nuestro sitio ha sido completado y está listo para su lanzamiento. Nos aseguramos de que todo funcione como está planeado y entregamos los archivos al cliente.</p>
+						    	<p>Las tareas a realizar son:</p>
+					    		<ul class="slider__ul">
+						    		<li class="slider__li">Lanzamiento</li>
+						    		<li class="slider__li">Control de calidad</li>
+						    		<li class="slider__li">Indexación de Google</li>
+						    		<li class="slider__li">Entrega de archivos</li>
 						    	</ul>
 					    	</div>
 					    </div>
@@ -386,31 +464,31 @@ tr:nth-child(even) {
 			</div>
 			<div class="fila" style="align-items: center;">
 				<div class="column-4 column-m-4">
-					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/tx-tint-logo.png">
+					<a href="https://conexionvital.com.mx/" target="_blank"><img class="imagen imagen-centrada testimonios__body--imagen" src="images/conexion-vital.png"></a>
 				</div>
 				<div class="column-4 column-m-4">
-					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/sgmass-logo.png">
+					<a href="https://sgmass.com/" target="_blank"><img class="imagen imagen-centrada testimonios__body--imagen" src="images/sgmass-logo.png"></a>
 				</div>
 				<div class="column-4 column-m-4">
-					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/l angolo color.png">
+					<a href="https://klpvc.com.mx/" target="_blank"><img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-klpvc.jpg"></a>
 				</div>
 				<div class="column-4 column-m-4">
-					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-klpvc.jpg">
+					<a href="https://pbcautomotive.com/" target="_blank"><img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-pbcautomotive.svg"></a>
 				</div>
 				<div class="column-4 column-m-4">
-					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-diebe.svg">
+					<a href="https://fuentesarquitectonicas.com/" target="_blank"><img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-fuentes-arquitectonicas.svg"></a>
 				</div>
 				<div class="column-4 column-m-4">
-					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-east-coast-alt.svg">
+					<a href="https://perfectgift.mx/" target="_blank"><img style="background-color: #222; padding: 10px;" class="imagen imagen-centrada testimonios__body--imagen" src="images/perfect-gift.png"></a>
 				</div>
 				<div class="column-4 column-m-4">
-					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/bce 1.png">
+					<a href="https://portafoliodenegocios.com.mx/" target="_blank"><img class="imagen imagen-centrada testimonios__body--imagen" src="images/pdn-logo.png"></a>
 				</div>
 				<div class="column-4 column-m-4">
-					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-mobiliere.svg">
+					<a href="https://www.txtint.com/" target="_blank"><img class="imagen imagen-centrada testimonios__body--imagen" src="images/tx-tint-logo.png"></a>
 				</div>
 				<div class="column-4 column-m-4">
-					<img class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-pbcautomotive.svg">
+					<a href="https://ajbabogados.com/" target="_blank"><img style="background-color: #222; padding: 10px;" class="imagen imagen-centrada testimonios__body--imagen" src="images/logo-light.png"></a>
 				</div>
 			</div>
 		</div>
@@ -463,24 +541,24 @@ tr:nth-child(even) {
 });
   </script>
   <script>
-		function openCity(evt, cityName) {
+		function openTab1(evt, TabName) {
 		  // Declare all variables
 		  var i, tabcontent, tablinks;
 
 		  // Get all elements with class="tabcontent" and hide them
-		  tabcontent = document.getElementsByClassName("tabcontent");
+		  tabcontent = document.getElementsByClassName("tabcontent-estilo1");
 		  for (i = 0; i < tabcontent.length; i++) {
 		    tabcontent[i].style.display = "none";
 		  }
 
 		  // Get all elements with class="tablinks" and remove the class "active"
-		  tablinks = document.getElementsByClassName("tablinks");
+		  tablinks = document.getElementsByClassName("tablinks1");
 		  for (i = 0; i < tablinks.length; i++) {
 		    tablinks[i].className = tablinks[i].className.replace(" active", "");
 		  }
 
 		  // Show the current tab, and add an "active" class to the button that opened the tab
-		  document.getElementById(cityName).style.display = "block";
+		  document.getElementById(TabName).style.display = "block";
 		  evt.currentTarget.className += " active";
 		}
 	</script>
@@ -488,6 +566,26 @@ tr:nth-child(even) {
 		// Get the element with id="defaultOpen" and click on it
 		document.getElementById("defaultOpen").click();
 	</script>
+
+	<script>
+	function openTab2(evt, TabName2) {
+	  var i, tabcontent, tablinks;
+	  tabcontent = document.getElementsByClassName("tabcontent-estilo2");
+	  for (i = 0; i < tabcontent.length; i++) {
+	    tabcontent[i].style.display = "none";
+	  }
+	  tablinks = document.getElementsByClassName("tablinks2");
+	  for (i = 0; i < tablinks.length; i++) {
+	    tablinks[i].className = tablinks[i].className.replace(" active", "");
+	  }
+	  document.getElementById(TabName2).style.display = "block";
+	  evt.currentTarget.className += " active";
+	}
+
+	// Get the element with id="defaultOpen" and click on it
+	document.getElementById("defaultOpen2").click();
+	</script>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script type="text/javascript">
       $(window).load(function() {

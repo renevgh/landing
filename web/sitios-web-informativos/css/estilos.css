@@ -216,7 +216,7 @@
 }
 .linea-horizontal{
   margin: -30px auto auto auto;
-  width: 215px;
+  width: 260px;
   text-align: center;
   border: 1px solid #222;
 }
@@ -235,6 +235,14 @@
   .linea-horizontal{
     margin: -30px auto auto auto;
     width: 200px;
+  }
+  .tab-estilo1 button{
+    padding: 0;
+    width: 35px;
+    height: 35px;
+  }
+  .linea-horizontal{
+    margin: -18px auto auto auto;
   }
 }
 

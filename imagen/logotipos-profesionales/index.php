@@ -224,7 +224,7 @@
 			<div class="fila">
 				<div class="column-12">
 					<!-- Tab links -->
-					<div class="tab">
+					<div class="tab-estilo1">
 						<button class="tablinks" onclick="openCity(event, 'tabuno')" id="defaultOpen">1</button>
   						<button class="tablinks" onclick="openCity(event, 'tabdos')">2</button>
   						<button class="tablinks" onclick="openCity(event, 'tabtres')">3</button>
@@ -232,7 +232,7 @@
 					<hr class="linea-horizontal">
 
 					<!-- Tab content -->
-					<div id="tabuno" class="tabcontent">
+					<div id="tabuno" class="tabcontent-estilo1">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
 						    	<img class="imagen imagen-centrada slider__imagen" src="images/inspiracion.svg"/>
@@ -245,7 +245,7 @@
 					    </div>
 					</div>
 
-					<div id="tabdos" class="tabcontent">
+					<div id="tabdos" class="tabcontent-estilo1">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
 						    	<img class="imagen imagen-centrada slider__imagen" src="images/revisiones.svg"/>
@@ -258,7 +258,7 @@
 					    </div>
 					</div>
 
-					<div id="tabtres" class="tabcontent">
+					<div id="tabtres" class="tabcontent-estilo1">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
 						    	<img class="imagen imagen-centrada slider__imagen" src="images/entrega.svg"/>
@@ -376,7 +376,7 @@
 		  var i, tabcontent, tablinks;
 
 		  // Get all elements with class="tabcontent" and hide them
-		  tabcontent = document.getElementsByClassName("tabcontent");
+		  tabcontent = document.getElementsByClassName("tabcontent-estilo1");
 		  for (i = 0; i < tabcontent.length; i++) {
 		    tabcontent[i].style.display = "none";
 		  }

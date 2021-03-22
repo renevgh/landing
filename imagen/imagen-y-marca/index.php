@@ -77,49 +77,10 @@
   background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0.5) 100%);
   z-index: -1;
 }
-/*.loaderIT 
-{
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 99999; 
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-}
-.loaderIT__image{
-	position: absolute;
-	top: 40%;
-}
-.loaderIT__image img{
-	width: 80px;
-	height: auto;
-}
-.loaderIT__texto{
-	text-align: center;
-    position: absolute;
-    bottom: 10%;
-    font-size: 16px;
-    color: #e34;
-    font-weight: 300!important;
-}*/
 </style>
 
 </head>
 <body>
-	<!--div class="loaderIT">
-		<div class="loaderIT__image">
-			<img src="https://itedup.com/wp-content/uploads/2018/11/itedup-it.png" alt="Loading itedup">
-		</div>
-		<div class="loaderIT__texto">
-			<p>BRANDING, WEB/APPS, MARKETING</p>
-		</div>
-	</div-->
 	<?php
 		require('../../loader/loader.php');
 	?>
@@ -283,7 +244,7 @@
 			<div class="fila">
 				<div class="column-12">
 					<!-- Tab links -->
-					<div class="tab">
+					<div class="tab-estilo1">
 						<button class="tablinks" onclick="openCity(event, 'tabuno')" id="defaultOpen">1</button>
   						<button class="tablinks" onclick="openCity(event, 'tabdos')">2</button>
   						<button class="tablinks" onclick="openCity(event, 'tabtres')">3</button>
@@ -291,7 +252,7 @@
 					<hr class="linea-horizontal">
 
 					<!-- Tab content -->
-					<div id="tabuno" class="tabcontent">
+					<div id="tabuno" class="tabcontent-estilo1">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
 						    	<img class="imagen imagen-centrada slider__imagen" src="images/inspiracion.svg"/>
@@ -304,7 +265,7 @@
 					    </div>
 					</div>
 
-					<div id="tabdos" class="tabcontent">
+					<div id="tabdos" class="tabcontent-estilo1">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
 						    	<img class="imagen imagen-centrada slider__imagen" src="images/revisiones.svg"/>
@@ -317,7 +278,7 @@
 					    </div>
 					</div>
 
-					<div id="tabtres" class="tabcontent">
+					<div id="tabtres" class="tabcontent-estilo1">
   						<div class="fila" style="align-items: center;">
 						    <div class="column-12 column-m-6">
 						    	<img class="imagen imagen-centrada slider__imagen" src="images/entrega.svg"/>
@@ -508,7 +469,7 @@
 		  var i, tabcontent, tablinks;
 
 		  // Get all elements with class="tabcontent" and hide them
-		  tabcontent = document.getElementsByClassName("tabcontent");
+		  tabcontent = document.getElementsByClassName("tabcontent-estilo1");
 		  for (i = 0; i < tabcontent.length; i++) {
 		    tabcontent[i].style.display = "none";
 		  }
